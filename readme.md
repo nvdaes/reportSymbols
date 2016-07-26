@@ -9,3 +9,6 @@ It's based on the old ReportSymbols add-on,. You should uninstall it to use this
 * Report Symbols settings: Allows to set preferences for the speaking of typed symbols.
 
 Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
+
+## Changes for 1.0 ##
+* Initial version.
