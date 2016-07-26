@@ -54,7 +54,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def event_typedCharacter(self, obj, nextHandler, ch):
 		nextHandler()
-		if not config.conf["reportSymbols"]["speakTypedSymbols"] or config.conf["keyboard"]["speakTypedCharacters"] or api.isTypingProtected() or not ["keyboard"]["speechInterruptForCharacters"]:
+		if not config.conf["reportSymbols"]["speakTypedSymbols"] or config.conf["keyboard"]["speakTypedCharacters"] or api.isTypingProtected() or not config.conf["keyboard"]["speechInterruptForCharacters"]:
 			return
 		if not ch.isalnum() and not ch.isspace() and ord(ch)>=32:
 			speech.speakSpelling(ch)
