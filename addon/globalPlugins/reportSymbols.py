@@ -1,5 +1,7 @@
-﻿# reportSymbols: Plugin to listen the typed symbols (non alphanumeric characters)
-# Date: 26/07/2016
+﻿# -*- coding: UTF-8 -*-
+# reportSymbols: Plugin to listen the typed symbols (non alphanumeric characters)
+#Copyright (C) 2013-2016 Noelia Ruiz Martínez
+# Released under GPL 2
 
 import addonHandler
 import globalPluginHandler
