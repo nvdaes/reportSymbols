@@ -23,7 +23,7 @@ addon_info = {
 	# Author(s)
 	"addon_author" : u"Noelia Ruiz Martínez <nrm1977@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url" : "http://www/addons.nvda-project.org",
+	"addon_url" : "http://addons.nvda-project.org",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 }
