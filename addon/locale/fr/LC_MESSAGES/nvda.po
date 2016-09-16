@@ -1,0 +1,61 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reportSymbols 1.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2016-09-02 23:32+1000\n"
+"PO-Revision-Date: 2016-09-10 15:08+0100\n"
+"Last-Translator: Remy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: the label of a message box dialog.
+msgid ""
+"You have installed the ReportSymbols add-on, probably an old and "
+"incompatible version with this one. Do you want to uninstall the old version?"
+msgstr ""
+"Vous avez probablement installé une version ancienne du module "
+"complémentaire ReportSymbols, et elle est incompatible avec la présente. "
+"Voulez-vous désinstaller l'ancienne version ?"
+
+#. Translators: the title of a message box dialog.
+msgid "Uninstall incompatible add-on"
+msgstr "Désinstaller le module complémentaire incompatible"
+
+#. Translators: title of a dialog.
+msgid "Report Symbols settings"
+msgstr "Paramètres Report Symbols"
+
+#. Translators: label of a dialog.
+msgid "&Report symbols"
+msgstr "&Report symbols"
+
+#. Translators: name of a menu item.
+msgid "Report &Symbols settings..."
+msgstr "Paramètres Report &Symbols..."
+
+#. Translators: message presented in input mode.
+msgid "Shows the Report Symbols settings dialog."
+msgstr "Affiche la boîte de dialogue Paramètres Report Symbols."
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Report Symbols"
+msgstr "Report Symbols"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows to listen the typed symbols (non alphanumeric characters), even when "
+"the speaking of characters is turned off."
+msgstr ""
+"Permet d'écouter les symboles écrit (caractères non alphanumériques), même "
+"si la verbalisation des caractères écrit est désactivé."
