@@ -10,7 +10,7 @@ import config
 import speech
 import wx
 import gui
-from gui import SettingsDialog
+from gui import SettingsDialog, guiHelper
 from globalCommands import SCRCAT_CONFIG
 
 addonHandler.initTranslation()
@@ -26,10 +26,10 @@ class AddonSettingsDialog(SettingsDialog):
 	title = _("Report Symbols settings")
 
 	def makeSettings(self, settingsSizer):
+		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		# Translators: label of a dialog.
-		self.reportSymbolsCheckBox = wx.CheckBox(self, wx.NewId(), label=_("&Report symbols"))
+		self.reportSymbolsCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Report symbols")))
 		self.reportSymbolsCheckBox.SetValue(config.conf["reportSymbols"]["speakTypedSymbols"])
-		settingsSizer.Add(self.reportSymbolsCheckBox, border=10, flag=wx.BOTTOM)
 
 	def postInit(self):
 		self.reportSymbolsCheckBox.SetFocus()
