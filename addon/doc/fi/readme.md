@@ -19,10 +19,10 @@ Huom: Tälle valintaikkunalle voidaan määrittää syöte-ele menemällä
 NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syöte-eleet-vaihtoehto ja
 valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
-## Changes for 2.0 ##
-*	The visual presentation of the dialog has been enhanced, adhering to the
-  appearance of the dialogs shown in NVDA.
-*	Requires NVDA 2016.4 or later.
+## Muutokset versiossa 2.0 ##
+*	Valimtaikkunan visuaalista esitystä on parannettu noudattamaan NVDA:n
+  ikkunoiden ulkoasua.
+*	Edellyttää NVDA:n 2016.4-versiota tai uudempaa.
 
 ## Muutokset versiossa 1.0 ##
 *	Ensimmäinen versio.
