@@ -4,7 +4,7 @@
 *	Descărcați [versiunea stabilă][1]
 *	Descărcați [versiunea în dezvoltare][2]
 
-Acest add-on permite ascultarea simbolurilor tastate (caractere
+Acest supliment permite ascultarea simbolurilor tastate (caractere
 nonalfanumerice), atunci când vorbirea caracterelor tastate este dezactivată
 în NVDA.
 
