@@ -1,0 +1,27 @@
+version: '{branch}-{build}'
+branches:
+  only:
+  - master
+environment:
+  PY_PYTHON: 2.7-32
+install:
+- cmd: >-
+    py -m pip install --egg scons
+
+    py -m pip install markdown
+build_script:
+- cmd: scons
+artifacts:
+- path: '*.nvda-addon'
+  name: ADDON
+  type: WebDeployPackage
+deploy:
+- provider: GitHub
+  release: $(APPVEYOR_REPO_TAG_NAME)
+  draft: false
+  description: $(APPVEYOR_REPO_TAG_NAME)
+  auth_token:
+    secure: t7odj5xa8p2sujc5s9wn
+  artifact: addon
+  on:
+    appveyor_repo_tag: true
