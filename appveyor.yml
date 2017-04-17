@@ -18,7 +18,7 @@ artifacts:
 deploy:
 - provider: GitHub
   release: $(APPVEYOR_REPO_TAG_NAME)
-  draft: false
+  draft: true
   description: $(APPVEYOR_REPO_TAG_NAME)
   auth_token:
     secure: t7odj5xa8p2sujc5s9wn
