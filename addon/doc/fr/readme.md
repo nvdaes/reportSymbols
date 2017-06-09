@@ -30,6 +30,6 @@ commandes, dans la catégorie Configuration.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=rsy
+[1]: https://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
