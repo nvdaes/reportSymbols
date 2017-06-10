@@ -17,6 +17,9 @@ addonHandler.initTranslation()
 
 confspec = {
 	"speakTypedSymbols": "boolean(default=False)",
+	"speakTypedSpaces": "boolean(default=False)",
+	"speakEnter": "boolean(default=False)",
+	"speakTab": "boolean(default=False)",
 }
 config.conf.spec["reportSymbols"] = confspec
 
@@ -28,14 +31,29 @@ class AddonSettingsDialog(SettingsDialog):
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		# Translators: label of a dialog.
-		self.reportSymbolsCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Report symbols")))
+		self.reportSymbolsCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("Report &printable symbols")))
 		self.reportSymbolsCheckBox.SetValue(config.conf["reportSymbols"]["speakTypedSymbols"])
+
+		# Translators: label of a dialog.
+		self.reportSpacesCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("Report &spaces")))
+		self.reportSpacesCheckBox.SetValue(config.conf["reportSymbols"]["speakTypedSpaces"])
+
+		# Translators: label of a dialog.
+		self.reportEnterCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Report carriage returns")))
+		self.reportEnterCheckBox.SetValue(config.conf["reportSymbols"]["speakEnter"])
+
+		# Translators: label of a dialog.
+		self.reportTabCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("Repor&t other blank characters")))
+		self.reportTabCheckBox.SetValue(config.conf["reportSymbols"]["speakTab"])
 
 	def postInit(self):
 		self.reportSymbolsCheckBox.SetFocus()
 
 	def onOk(self,evt):
 		config.conf["reportSymbols"]["speakTypedSymbols"] = self.reportSymbolsCheckBox.GetValue()
+		config.conf["reportSymbols"]["speakTypedSpaces"] = self.reportSpacesCheckBox.GetValue()
+		config.conf["reportSymbols"]["speakEnter"] = self.reportEnterCheckBox.GetValue()
+		config.conf["reportSymbols"]["speakTab"] = self.reportTabCheckBox.GetValue()
 		super(AddonSettingsDialog, self).onOk(evt)
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -56,10 +74,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def event_typedCharacter(self, obj, nextHandler, ch):
 		nextHandler()
-		if not config.conf["reportSymbols"]["speakTypedSymbols"] or config.conf["keyboard"]["speakTypedCharacters"] or api.isTypingProtected() or not config.conf["keyboard"]["speechInterruptForCharacters"]:
+		if api.isTypingProtected():
 			return
-		if not ch.isalnum() and not ch.isspace() and ord(ch)>=32:
-			speech.speakSpelling(ch)
+		if not config.conf["keyboard"]["speakTypedCharacters"] and config.conf["keyboard"]["speechInterruptForCharacters"]:
+			if config.conf["reportSymbols"]["speakTypedSymbols"] and not ch.isalnum() and not ch.isspace() and ord(ch)>=32:
+				speech.speakSpelling(ch)
+			elif config.conf["reportSymbols"]["speakTypedSpaces"] and ord(ch) == 32:
+				speech.speakSpelling(ch)
+		if not config.conf["keyboard"]["speakCommandKeys"]:
+			if config.conf["reportSymbols"]["speakEnter"] and config.conf["keyboard"]["speechInterruptForEnter"] and ord(ch) == 13:
+				speech.speakSpelling(ch)
+			elif config.conf["reportSymbols"]["speakTab"] and ch.isspace() and ord (ch) not in (13, 32):
+				speech.speakSpelling(ch)
 
 	def onSettings(self, evt):
 		gui.mainFrame._popupSettingsDialog(AddonSettingsDialog)
