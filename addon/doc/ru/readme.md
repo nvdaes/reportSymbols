@@ -1,11 +1,11 @@
 # Report Symbols #
-
 *	Автор: Noelia Ruiz Martínez.
 *	Загрузить [стабильную версию][1]
 *	Загрузить [разрабатываемую версию][2]
 
-Это дополнение позволяет слышать набираемые не буквенно-цифровые символы,
-даже если произношение символов выключено в NVDA.
+This add-on allows to listen the typed symbols (non alphanumeric or blank
+characters), even when the speaking of typed characters is turned off in
+NVDA.
 
 Оно основано на старом дополнении ReportSymbols, разработанном тем же
 автором. Сначала удалите старое дополнение, чтобы использовать это.
@@ -17,6 +17,10 @@
 Примечание: вы можете назначить жест на открытие диалога настроек,
 проследовав в меню NVDA, подменю "Параметры", пункт "Жесты ввода".
 
+## Changes for 3.0 ##
+* Added checkboxes for the speaking of spaces, carriage returns and other
+  blank characters.
+
 ## Изменения в версии 2.0 ##
 *	Визуальное представление диалогов было модифицировано, придерживаясь
   внешнего вида диалогов, отображаемых в NVDA.
@@ -27,6 +31,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
+[1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
