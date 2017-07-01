@@ -19,7 +19,7 @@ If this is a minor/trivial change which definitely wouldn't require design, user
 ### If this is your first contribution ###
 
 1. Fork the add-on repository on GitHub.
-2. Clone this repo as follows:
+2. Clone your repo as follows:
 `git clone https://github.com/yourGitHubUserName/reportSymbols`
 3. From your local folder for the cloned repo, add this repo as your upstream remote:
 `git remote add upstream https://github.com/nvdaes/reportSymbols`
