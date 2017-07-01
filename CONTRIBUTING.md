@@ -39,3 +39,9 @@ If this is a minor/trivial change which definitely wouldn't require design, user
 ### Making changes ###
 
 You can make changes in the add-on code, following the [Contributing to NVDA](https://github.com/nvaccess/nvda/wiki/Contributing) guidelines.
+
+### Submitting changes ###
+
+- Build the add-on and test it on your system: `scons`
+- If all is right, send changes to your branch, for instance: `git push origin i2`
+- Create a pull request on GitHub.
