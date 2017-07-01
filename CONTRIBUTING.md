@@ -1,10 +1,16 @@
-# Contributing #
-
 These guidelines are based on the [Contributing to NVDA](https://github.com/nvaccess/nvda/wiki/Contributing) document.
 
 ## Request changes ##
 
 For anything other than minor bug fixes, please comment on an existing issue or create a new issue providing details about your proposed change. Unrelated changes should be addressed in separate issues. Include information about use cases, design, user experience, etc. This allows us to discuss these aspects and any other concerns that might arise, thus potentially avoiding a great deal of wasted time. 
+
+If you're reporting a bug, include:
+
+- Steps to reproduce.
+- Actual behavior.
+- Expected behavior.
+- Any information which could be relevant, like specific programs or add-ons you are using.
+- You can zip and attach your NVDA's log file. Also, more feedback could be required to debug and fix the reported bug.
 
 If this is a minor/trivial change which definitely wouldn't require design, user experience or implementation discussion (e.g. a fix for a typo/obvious coding error), you can just create a pull request rather than using an issue first. 
 
@@ -32,32 +38,4 @@ If this is a minor/trivial change which definitely wouldn't require design, user
 
 ### Making changes ###
 
-You can make changes in the add-on code, following these guidelines:
-
-#### Code Style ####
-
-##### Encoding #####
-
-- Where Python files contain non-ASCII characters, they should be encoded in UTF-8.
-- There should be no Unicode BOM at the start of the file, as this unfortunately breaks one of the translation tools we use (xgettext). Instead, include this as the first line of the file (only if the file contains non-ASCII characters):
-# -*- coding: UTF-8 -*-
-
-- Most files should contain CRLF line endings, as this is a Windows project and can't be used on Unix-like operating systems.
-
-##### Indentation #####
-
-- Indentation must be done with tabs (one per level), not spaces.
-- When splitting a single statement over multiple lines, just indent one or more additional levels. Don't use vertical alignment; e.g. lining up with the bracket on the previous line.
-
-##### Identifier Names #####
-
-- Functions, variables, properties, etc. should use mixed case to separate words, starting with a lower case letter; e.g.  speakText .
-- Classes should use mixed case to separate words, starting with an upper case letter; e.g.  BrailleHandler .
-- Constants should be all upper case, separating words with underscores; e.g.  LANGS_WITH_CONJUNCT_CHARS .
-
-##### Translatable Strings #####
-- All strings that could be presented to the user should be marked as translatable using the  _()  function; e.g.  _("Text review") .
-- All translatable strings should have a preceding translators comment describing the purpose of the string for translators. For example:
-
-# Translators: The name of a category of NVDA commands.
-SCRCAT_TEXTREVIEW = _("Text review")
+You can make changes in the add-on code, following the [Contributing to NVDA](https://github.com/nvaccess/nvda/wiki/Contributing) guidelines.
