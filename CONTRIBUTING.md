@@ -1,6 +1,6 @@
 These guidelines are based on the [Contributing to NVDA](https://github.com/nvaccess/nvda/wiki/Contributing) document.
 
-It's assumed that you're working on Windows, with the last stable or master version of NVDA. For the examples related to Git, we'll assume you're using Git from thw Windows command line (`windows+r`, `cmd`).
+It's assumed that you're working on Windows, with the last stable or master version of NVDA. For the examples related to Git, we'll assume you're using Git from the Windows command line (`windows+r`, `cmd`).
 
 ## Request changes ##
 
