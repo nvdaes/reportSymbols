@@ -53,6 +53,7 @@ Add and commit changes providing a descriptive message, for instance:
 > Buildvars.py: Change add-on description
 >
 > (Blank line)
+>
 > Make the add-on description consistent with the info provided in the readme.md file
 
 ### Submitting changes ###
