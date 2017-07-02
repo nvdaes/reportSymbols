@@ -46,6 +46,14 @@ Also, you can see and contribute our [code of conduct](https://github.com/nvdaes
 
 You can make changes in the add-on code, following the [Contributing to NVDA](https://github.com/nvaccess/nvda/wiki/Contributing) guidelines.
 
+Add and commit changes providing a descriptive message, for instance:
+`git add .`
+`git commit`
+
+> Buildvars.py: Change add-on description
+>
+> Make the add-on description consistent with the info provided in the readme.md file
+
 ### Submitting changes ###
 
 - Build the add-on and test it on your system: `scons`
