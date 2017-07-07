@@ -3,9 +3,9 @@
 *	Descargar [versión estable][1]
 *	Descargar [versión de desenvolvemento][2]
 
-This add-on allows to listen the typed symbols (non alphanumeric or blank
-characters), even when the speaking of typed characters is turned off in
-NVDA.
+Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
+alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea
+desactivado no NVDA.
 
 Baséase no antigo complemento ReportSymbols, desenvolvido pola mesma
 autora. Deberías desinstalalo para utilizar esta versión.
@@ -17,9 +17,9 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
-## Changes for 3.0 ##
-* Added checkboxes for the speaking of spaces, carriage returns and other
-  blank characters.
+## Cambios para 3.0 ##
+* Engadidas caixas de verificación para a fala de espazos, retornos de carro
+  e outros caracteres en branco.
 
 ## Cambios para 2.0 ##
 *	A presentación visual do diálogo mellorouse, adheríndose á apariencia dos

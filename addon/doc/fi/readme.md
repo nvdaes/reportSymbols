@@ -3,9 +3,9 @@
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][2]
 
-Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit (muut kuin
-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien puhuminen
-on poistettu käytöstä.
+Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit
+(ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien
+puhuminen on poistettu käytöstä.
 
 Perustuu saman tekijän kehittämään vanhaan ReportSymbols-lisäosaan. Sinun
 tulisi poistaa se tämän version käyttämiseksi.

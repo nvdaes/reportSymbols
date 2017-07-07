@@ -3,9 +3,9 @@
 *	Télécharger [version stable][1]
 *	Télécharger [version de développement][2]
 
-This add-on allows to listen the typed symbols (non alphanumeric or blank
-characters), even when the speaking of typed characters is turned off in
-NVDA.
+Ce module complémentaire permet d'écouter les symboles écrit (caractères non
+alphanumériques ou caractères en blanc), même si la verbalisation des
+caractères écrit est désactivé dans NVDA.
 
 Il est basé sur l'ancien module complémentaire ReportSymbols, développé par
 le même auteur. Vous devez désinstaller celui-ci pour utiliser cette
@@ -19,9 +19,9 @@ Note : Un geste pour ouvrir cette boîte de dialogue peut être assigné en
 allant dans le menu NVDA, sous-menu Préférences, dans le dialogue Gestes de
 commandes, dans la catégorie Configuration.
 
-## Changes for 3.0 ##
-* Added checkboxes for the speaking of spaces, carriage returns and other
-  blank characters.
+## Changements pour la version 3.0 ##
+* Ajout de cases à cocher pour la verbalisation des espaces, des retours de
+  chariot et d'autres caractères en blanc.
 
 ## Changements pour la version 2.0 ##
 *	La présentation visuelle de la boîte de dialogue a été améliorée, en

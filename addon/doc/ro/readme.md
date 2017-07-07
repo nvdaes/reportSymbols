@@ -3,9 +3,9 @@
 *	Descărcați [versiunea stabilă][1]
 *	Descărcați [versiunea în dezvoltare][2]
 
-This add-on allows to listen the typed symbols (non alphanumeric or blank
-characters), even when the speaking of typed characters is turned off in
-NVDA.
+Acest supliment permite ascultarea simbolurilor tastate (caractere
+non-alfanumerice sau goale), atunci când vorbirea caracterelor tastate este
+dezactivată în NVDA.
 
 Este bazat pe varianta veche a acestui add-on, dezvoltat de același
 autor. Trebuie să-l dezinstalați ca să folosiți această versiune.
@@ -18,9 +18,9 @@ Notă: Un gest pentru deschiderea acestui dialog poate fi atribuit din meniul
 NVDA, submeniul preferințe, dialogul gesturilor de intrare, secțiunea
 Configurare.
 
-## Changes for 3.0 ##
-* Added checkboxes for the speaking of spaces, carriage returns and other
-  blank characters.
+## Modificări în 3.0Modificări în 1.0 ##
+* Au fost adăugate casete de bifat pentru vorbirea spațiilor, a liniilor noi
+  și a altor caractere goale.
 
 ## Modificări în 2.0Modificări în 1.0 ##
 *	Prezentarea vizuală a dialogului a fost îmbunătățită, aderând la aspectul
