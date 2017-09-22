@@ -14,8 +14,8 @@ tulisi poistaa se tämän version käyttämiseksi.
 *	Puhu symbolit: Mahdollistaa kirjoitettujen symboleiden puhumisen asetusten
   määrittämisen.
 
-Huom: Tälle valintaikkunalle voidaan määrittää syöte-ele menemällä
-NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syöte-eleet-vaihtoehto ja
+Huom: Tälle valintaikkunalle voidaan määrittää syötekomento menemällä
+NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syötekomennot-vaihtoehto ja
 valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
 ## Muutokset versiossa 3.0 ##
