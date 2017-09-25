@@ -1,12 +1,11 @@
 # Puhu symbolit #
-
 *	Tekijä: Noelia Ruiz Martínez.
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][2]
 
-Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit (muut kuin
-aakkosnumeeriset merkit), vaikka kirjoitettujen merkkien puhuminen on
-poistettu käytöstä.
+Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit
+(ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien
+puhuminen on poistettu käytöstä.
 
 Perustuu saman tekijän kehittämään vanhaan ReportSymbols-lisäosaan. Sinun
 tulisi poistaa se tämän version käyttämiseksi.
@@ -15,9 +14,13 @@ tulisi poistaa se tämän version käyttämiseksi.
 *	Puhu symbolit: Mahdollistaa kirjoitettujen symboleiden puhumisen asetusten
   määrittämisen.
 
-Huom: Tälle valintaikkunalle voidaan määrittää syöte-ele menemällä
-NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syöte-eleet-vaihtoehto ja
+Huom: Tälle valintaikkunalle voidaan määrittää syötekomento menemällä
+NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syötekomennot-vaihtoehto ja
 valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
+
+## Muutokset versiossa 3.0 ##
+* Lisätty valintaruudut välilyöntien, rivinvaihtojen ja muiden tyhjämerkkien
+  puhumiseen.
 
 ## Muutokset versiossa 2.0 ##
 *	Valimtaikkunan visuaalista esitystä on parannettu noudattamaan NVDA:n
@@ -29,6 +32,6 @@ valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
+[1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev

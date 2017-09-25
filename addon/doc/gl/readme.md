@@ -1,12 +1,11 @@
 # Report Symbols #
-
 *	Autor: Noelia Ruiz Martínez.
 *	Descargar [versión estable][1]
 *	Descargar [versión de desenvolvemento][2]
 
 Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
-alfanuméricos), aínda cando falar carácteres ao escrebir  estea desactivado
-no NVDA.
+alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea
+desactivado no NVDA.
 
 Baséase no antigo complemento ReportSymbols, desenvolvido pola mesma
 autora. Deberías desinstalalo para utilizar esta versión.
@@ -18,6 +17,10 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
+## Cambios para 3.0 ##
+* Engadidas caixas de verificación para a fala de espazos, retornos de carro
+  e outros caracteres en branco.
+
 ## Cambios para 2.0 ##
 *	A presentación visual do diálogo mellorouse, adheríndose á apariencia dos
   diálogos amosados no NVDA.
@@ -28,6 +31,6 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
+[1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev

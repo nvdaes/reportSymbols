@@ -1,11 +1,11 @@
 # Szimbólumok bemondása #
-
 *	Írta: Noelia Ruiz Martínez.
 *	Letöltés [stabil verzió][1]
 *	Letöltés [fejlesztői verzió][2]
 
-Ez a bővítmény bemondja a nem alfanumerikus szimbólumokat gépeléskor még
-akkor is, ha a beírt karakterek bemondása gépeléskor ki van kapcsolva.
+This add-on allows to listen the typed symbols (non alphanumeric or blank
+characters), even when the speaking of typed characters is turned off in
+NVDA.
 
 Ez a bővítmény a régi "Szimbólumok bemondása" bővítményen alapul, melyet
 ugyanez a fejlesztő írt. Kérjük, mielőtt ezt a bővítményt használná,
@@ -19,6 +19,10 @@ Megjegyzés: ha ezt a párbeszédpanelt billentyűparanccsal szeretné megnyitni
 hozzáadhat billentyűparancsot az NVDA/beállítások/beviteli parancsok
 párbeszédpanelen a konfiguráció kategóriában.
 
+## Changes for 3.0 ##
+* Added checkboxes for the speaking of spaces, carriage returns and other
+  blank characters.
+
 ## Changes for 2.0 ##
 *	The visual presentation of the dialog has been enhanced, adhering to the
   appearance of the dialogs shown in NVDA.
@@ -29,6 +33,6 @@ párbeszédpanelen a konfiguráció kategóriában.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
+[1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev

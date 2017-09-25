@@ -1,12 +1,11 @@
 # Report Symbols #
-
 *	Autor: Noelia Ruiz Martínez.
 *	Descargar [versión estable][1]
 *	Descargar [versión de desarrollo][2]
 
 Este complemento te permite escuchar los símbolos escritos (caracteres no
-alfanuméricos), incluso cuando Verbalizar carácteres al escribir  esté
-desactivado en NVDA.
+alfanuméricos o en blanco), incluso cuando Verbalizar carácteres al escribir
+esté desactivado en NVDA.
 
 Se basa en el antiguo complemento ReportSymbols, desarrollado por la misma
 autora. Deberías desinstalarlo para utilizar esta versión.
@@ -18,6 +17,10 @@ autora. Deberías desinstalarlo para utilizar esta versión.
 Nota: Se puede asignar un gesto para abrir este diálogo desde el menú NVDA,
 submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
+## Cambios para 3.0 ##
+* Añadidas casillas de verificación para la verbalización de espacios,
+  retornos de carro y othros caracteres en blanco.
+
 ## Cambios para 2.0 ##
 *	La presentación visual del diálogo se ha mejorado, adhiriéndose a la
   apariencia de los diálogos mostrados en NVDA.
@@ -28,6 +31,6 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
+[1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
