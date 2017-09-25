@@ -17,7 +17,7 @@ addon_info = {
 	"addon_summary" : _("Report Symbols"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description" : _("""Allows to listen the typed symbols (non alphanumeric characters), even when the speaking of characters is turned off."""),
+	"addon_description" : _("""Allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of characters is turned off."""),
 	# version
 	"addon_version" : "3.1",
 	# Author(s)
