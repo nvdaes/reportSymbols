@@ -1,4 +1,4 @@
-# Raportarea Simbolurilor #
+# Report Symbols #
 *	Autor: Noelia Ruiz Martínez.
 *	Descărcați [versiunea stabilă][1]
 *	Descărcați [versiunea în dezvoltare][2]
