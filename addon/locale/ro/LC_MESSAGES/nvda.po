@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2017-06-30 12:23+0300\n"
+"PO-Revision-Date: 2017-10-20 09:34+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -51,7 +51,7 @@ msgstr "Raporteaz&ă alte caractere goale"
 
 #. Translators: name of a menu item.
 msgid "Report &Symbols settings..."
-msgstr "Setări raport&are simbol..."
+msgstr "Setări Report &Symbols..."
 
 #. Translators: message presented in input mode.
 msgid "Shows the Report Symbols settings dialog."
@@ -60,7 +60,7 @@ msgstr "Arată dialogul de setări ReportSymbol."
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Report Symbols"
-msgstr "Raportează simbolurile"
+msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
