@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-10-07 18:01+1000\n"
-"PO-Revision-Date: 2017-07-02 20:54+0200\n"
+"PO-Revision-Date: 2017-12-17 01:01+0100\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -23,7 +23,7 @@ msgid ""
 "incompatible version with this one. Do you want to uninstall the old version?"
 msgstr ""
 "Sie haben möglicherweise eine veraltete und inkompatible Version der "
-"Erweiterung Symbol-Mitteilungen installiert. Möchten Sie sie jetzt "
+"Erweiterung Symbole ansagen installiert. Möchten Sie sie jetzt "
 "deinstallieren?"
 
 #. Translators: the title of a message box dialog.
@@ -32,7 +32,7 @@ msgstr "Inkompatible Erweiterung deinstallieren"
 
 #. Translators: title of a dialog.
 msgid "Report Symbols settings"
-msgstr "Einstellungen der Symbol-Mitteilungen"
+msgstr "Einstellungen der Symbol-Ansagen"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -52,16 +52,16 @@ msgstr "&Weitere Leerzeichen ansagen"
 
 #. Translators: name of a menu item.
 msgid "Report &Symbols settings..."
-msgstr "Einstellungen der &Symbol-Mitteilungen..."
+msgstr "Einstellungen der &Symbol-Ansagen..."
 
 #. Translators: message presented in input mode.
 msgid "Shows the Report Symbols settings dialog."
-msgstr "Zeigt die Einstellungen der Symbol-Mitteilungen an."
+msgstr "Zeigt die Einstellungen der Symbol-Ansagen an."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Report Symbols"
-msgstr "Symbol-Mitteilungen"
+msgstr "Symbol-Ansagen"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -70,5 +70,5 @@ msgid ""
 "the speaking of characters is turned off."
 msgstr ""
 "Ermöglicht die Auflistung der eingegebenen (nichtalphanumerischen) "
-"Symbolzeichen. Insbesondere, wenn die Ansage der eingegebenen Zeichen "
-"ausgeschaltet ist."
+"Symbolzeichen, auch wenn die Ansage der eingegebenen Zeichen ausgeschaltet "
+"ist."
