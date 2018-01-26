@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reportSymbols 1.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2016-10-07 18:01+1000\n"
+"PO-Revision-Date: 2018-01-09 23:16+0100\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.5\n"
+
+#. Translators: the label of a message box dialog.
+msgid ""
+"You have installed the ReportSymbols add-on, probably an old and "
+"incompatible version with this one. Do you want to uninstall the old version?"
+msgstr ""
+"Sie haben möglicherweise eine veraltete und inkompatible Version der "
+"Erweiterung Symbole ansagen installiert. Möchten Sie sie jetzt "
+"deinstallieren?"
+
+#. Translators: the title of a message box dialog.
+msgid "Uninstall incompatible add-on"
+msgstr "Inkompatible Erweiterung deinstallieren"
+
+#. Translators: title of a dialog.
+msgid "Report Symbols settings"
+msgstr "Symbole ansagen-Einstellungen"
+
+#. Translators: label of a dialog.
+msgid "Report &printable symbols"
+msgstr "&Druckbare Symbole ansagen"
+
+#. Translators: label of a dialog.
+msgid "Report &spaces"
+msgstr "&Leerzeichen ansagen"
+
+#. Translators: label of a dialog.
+msgid "&Report carriage returns"
+msgstr "&Zeilenumbrüche ansagen"
+
+#. Translators: label of a dialog.
+msgid "Repor&t other blank characters"
+msgstr "&Weitere Leerzeichen ansagen"
+
+#. Translators: name of a menu item.
+msgid "Report &Symbols settings..."
+msgstr "Einstellungen der &Symbol-Ansagen..."
+
+#. Translators: message presented in input mode.
+msgid "Shows the Report Symbols settings dialog."
+msgstr "Zeigt die Einstellungen der Symbol-Ansagen an."
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Report Symbols"
+msgstr "Symbol-Ansagen"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows to listen the typed symbols (non alphanumeric characters), even when "
+"the speaking of characters is turned off."
+msgstr ""
+"Ermöglicht die Auflistung der eingegebenen (nichtalphanumerischen) "
+"Symbolzeichen, auch wenn die Ansage der eingegebenen Zeichen ausgeschaltet "
+"ist."
