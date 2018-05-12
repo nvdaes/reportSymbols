@@ -12,6 +12,10 @@ It's based on the old ReportSymbols add-on, developed by the same author. You sh
 
 Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
+* Requires NVDA 2018.2 or later.
+
 ## Changes for 3.0 ##
 * Added checkboxes for the speaking of spaces, carriage returns and other blank characters.
 
