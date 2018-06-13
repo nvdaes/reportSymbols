@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # reportSymbols: Plugin to listen the typed symbols (non alphanumeric characters)
-#Copyright (C) 2013-2016 Noelia Ruiz Martínez
+#Copyright (C) 2013-2018 Noelia Ruiz Martínez
 # Released under GPL 2
 
 import addonHandler
@@ -10,10 +10,16 @@ import config
 import speech
 import wx
 import gui
-from gui import SettingsDialog, guiHelper
+from gui import SettingsPanel, NVDASettingsDialog, guiHelper
 from globalCommands import SCRCAT_CONFIG
 
 addonHandler.initTranslation()
+
+ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
+try:
+	ADDON_PANEL_TITLE = unicode(ADDON_SUMMARY)
+except NameError:
+	ADDON_PANEL_TITLE = str(ADDON_SUMMARY)
 
 confspec = {
 	"speakTypedSymbols": "boolean(default=False)",
@@ -23,10 +29,9 @@ confspec = {
 }
 config.conf.spec["reportSymbols"] = confspec
 
-class AddonSettingsDialog(SettingsDialog):
+class AddonSettingsPanel(SettingsPanel):
 
-	# Translators: title of a dialog.
-	title = _("Report Symbols settings")
+	title = ADDON_PANEL_TITLE
 
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
@@ -49,28 +54,20 @@ class AddonSettingsDialog(SettingsDialog):
 	def postInit(self):
 		self.reportSymbolsCheckBox.SetFocus()
 
-	def onOk(self,evt):
+	def onSave(self):
 		config.conf["reportSymbols"]["speakTypedSymbols"] = self.reportSymbolsCheckBox.GetValue()
 		config.conf["reportSymbols"]["speakTypedSpaces"] = self.reportSpacesCheckBox.GetValue()
 		config.conf["reportSymbols"]["speakEnter"] = self.reportEnterCheckBox.GetValue()
 		config.conf["reportSymbols"]["speakTab"] = self.reportTabCheckBox.GetValue()
-		super(AddonSettingsDialog, self).onOk(evt)
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
-		self.prefsMenu = gui.mainFrame.sysTrayIcon.preferencesMenu
-		self.settingsItem = self.prefsMenu.Append(wx.ID_ANY,
-			# Translators: name of a menu item.
-			_("Report &Symbols settings..."))
-		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onSettings, self.settingsItem)
+		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
 
 	def terminate(self):
-		try:
-			self.prefsMenu.RemoveItem(self.settingsItem)
-		except wx.PyDeadObjectError:
-			pass
+		NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 
 	def event_typedCharacter(self, obj, nextHandler, ch):
 		nextHandler()
@@ -88,10 +85,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				speech.speakSpelling(ch)
 
 	def onSettings(self, evt):
-		gui.mainFrame._popupSettingsDialog(AddonSettingsDialog)
+		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettings, None)
 	script_settings.category = SCRCAT_CONFIG
 	# Translators: message presented in input mode.
-	script_settings.__doc__ = _("Shows the Report Symbols settings dialog.")
+	script_settings.__doc__ = _("Shows the Report Symbols settings.")
