@@ -15,6 +15,7 @@ Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences 
 ## Changes for 4.0 ##
 * The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
 * Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
 ## Changes for 3.0 ##
 * Added checkboxes for the speaking of spaces, carriage returns and other blank characters.
@@ -29,3 +30,6 @@ Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]: https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon
+
