@@ -29,10 +29,6 @@ msgstr ""
 msgid "Uninstall incompatible add-on"
 msgstr "Ukloni nekompatibilan dodatak"
 
-#. Translators: title of a dialog.
-msgid "Report Symbols settings"
-msgstr "Report simbols podešavanja"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "Prijavi &simbole koji se mogu štampati"
@@ -49,12 +45,9 @@ msgstr "P&rijavi nove redove"
 msgid "Repor&t other blank characters"
 msgstr "&Prijavi druge prazne znakove"
 
-#. Translators: name of a menu item.
-msgid "Report &Symbols settings..."
-msgstr "&Report simbols podešavanja"
-
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings dialog."
+#, fuzzy
+msgid "Shows the Report Symbols settings."
 msgstr "Prikazuje dijalog podešavanja dodatka report simbols"
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -64,9 +57,16 @@ msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
-"Allows to listen the typed symbols (non alphanumeric characters), even when "
-"the speaking of characters is turned off."
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
 "Dozvoljava slušanje ukucanih simbola(znakovi koji nisu alfanumerički), čak i "
 "kada je izgovor ukucanih znakova isključen."
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "Report simbols podešavanja"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "&Report simbols podešavanja"

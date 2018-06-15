@@ -29,10 +29,6 @@ msgstr ""
 msgid "Uninstall incompatible add-on"
 msgstr "הסר התקנה שאינה תואמת"
 
-#. Translators: title of a dialog.
-msgid "Report Symbols settings"
-msgstr "דווח על הגדרות סמלים"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "%דיווח סמלים מוצגים"
@@ -49,12 +45,9 @@ msgstr "&הקראת שינויים במסמך"
 msgid "Repor&t other blank characters"
 msgstr "%הקראת תווים ריקים נוספים"
 
-#. Translators: name of a menu item.
-msgid "Report &Symbols settings..."
-msgstr "הגדרות דיווח &סמלים..."
-
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings dialog."
+#, fuzzy
+msgid "Shows the Report Symbols settings."
 msgstr "הצג את תיבת הדו-שיח הגדרות דיווח סמלים."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -64,9 +57,16 @@ msgstr "דיווח סמלים"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
-"Allows to listen the typed symbols (non alphanumeric characters), even when "
-"the speaking of characters is turned off."
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
 "מאפשר להאזין לסמלים שהוקלדו (לא תווים אלפאנומריים), גם כאשר הדיבור על תווים "
 "כבוי."
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "דווח על הגדרות סמלים"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "הגדרות דיווח &סמלים..."

@@ -9,12 +9,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-10-07 18:01+1000\n"
 "PO-Revision-Date: 2018-01-09 23:16+0100\n"
+"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"Language-Team: \n"
 "Language: de_CH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.5\n"
 
 #. Translators: the label of a message box dialog.
@@ -29,10 +29,6 @@ msgstr ""
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
 msgstr "Inkompatible Erweiterung deinstallieren"
-
-#. Translators: title of a dialog.
-msgid "Report Symbols settings"
-msgstr "Symbole ansagen-Einstellungen"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -50,12 +46,9 @@ msgstr "&Zeilenumbrüche ansagen"
 msgid "Repor&t other blank characters"
 msgstr "&Weitere Leerzeichen ansagen"
 
-#. Translators: name of a menu item.
-msgid "Report &Symbols settings..."
-msgstr "Einstellungen der &Symbol-Ansagen..."
-
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings dialog."
+#, fuzzy
+msgid "Shows the Report Symbols settings."
 msgstr "Zeigt die Einstellungen der Symbol-Ansagen an."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -65,10 +58,17 @@ msgstr "Symbol-Ansagen"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
-"Allows to listen the typed symbols (non alphanumeric characters), even when "
-"the speaking of characters is turned off."
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
 "Ermöglicht die Auflistung der eingegebenen (nichtalphanumerischen) "
 "Symbolzeichen, auch wenn die Ansage der eingegebenen Zeichen ausgeschaltet "
 "ist."
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "Symbole ansagen-Einstellungen"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "Einstellungen der &Symbol-Ansagen..."

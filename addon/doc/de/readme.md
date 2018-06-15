@@ -1,4 +1,5 @@
 # Symbole ansagen #
+
 *	Autor: Noelia Ruiz Martínez.
 *	[stabile version][1] herunterladen
 *	[Testversion herunterladen][2]
@@ -20,6 +21,13 @@ Hinweis: Eine Tastenkürzel zum Öffnen dieses Dialogs kann über das
 NVDA-Menü, Untermenü Einstellungen, Dialog Eingaben, Kategorie Konfiguration
 zugewiesen werden.
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA
+  Settings dialog.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
+
 ## Änderungen in 3.0 ##
 * Es wurden Kontrollfelder für das Ansagen der Leerzeichen, Wagenrücklauf
   und anderen leeren Zeichen hinzugefügt.
@@ -32,8 +40,12 @@ zugewiesen werden.
 ## Änderungen in 1.0 ##
 *	Ehrstveröffentlichung.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

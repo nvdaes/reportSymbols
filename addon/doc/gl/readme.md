@@ -1,4 +1,5 @@
 # Report Symbols #
+
 *	Autor: Noelia Ruiz Martínez.
 *	Descargar [versión estable][1]
 *	Descargar [versión de desenvolvemento][2]
@@ -17,6 +18,13 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA
+  Settings dialog.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
+
 ## Cambios para 3.0 ##
 * Engadidas caixas de verificación para a fala de espazos, retornos de carro
   e outros caracteres en branco.
@@ -29,8 +37,12 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 ## Cambios para 1.0 ##
 *	Versión inicial.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

@@ -1,4 +1,5 @@
 # Report Symbols #
+
 *	Autor: Noelia Ruiz Martínez.
 *	Descargar [versión estable][1]
 *	Descargar [versión de desarrollo][2]
@@ -17,6 +18,13 @@ autora. Deberías desinstalarlo para utilizar esta versión.
 Nota: Se puede asignar un gesto para abrir este diálogo desde el menú NVDA,
 submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA
+  Settings dialog.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
+
 ## Cambios para 3.0 ##
 * Añadidas casillas de verificación para la verbalización de espacios,
   retornos de carro y othros caracteres en blanco.
@@ -29,8 +37,12 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 ## Cambios para 1.0 ##
 *	Versión inicial.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

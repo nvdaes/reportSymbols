@@ -1,4 +1,5 @@
 # Report Symbols #
+
 *	Autrice: Noelia Ruiz Martínez.
 *	Download [stable version][1]
 *	Download [development version][2]
@@ -19,6 +20,13 @@ Nota: è possibile assegnare un comando rapido per aprire questa finestra
 tramite le impostazioni Gesti e tasti di immissione, nella categoria
 Configurazione.
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA
+  Settings dialog.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
+
 ## Novità nella versione 3.0 ##
 * Aggiunte caselle di controllo per la lettura di spazi, segni di fine riga
   e caratteri vuoti.
@@ -31,8 +39,12 @@ Configurazione.
 ## Cambiamenti per 1.0 ##
 *	Versione iniziale.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

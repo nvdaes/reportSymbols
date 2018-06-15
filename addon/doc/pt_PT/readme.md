@@ -1,4 +1,5 @@
 # Leitura de Símbolos #
+
 *	Autor: Noelia Ruiz Martínez.
 *	Baixar [versão estável][1]
 *	Baixar [versão de desenvolvimento][2]
@@ -18,6 +19,13 @@ Nota: Um comando para abrir esta caixa de diálogo pode ser atribuído a
 partir do menu NVDA, submenu Preferências, diálogo definir comandos,
 categoria Configuração.
 
+## Alterações para 4.0: ##
+* As configurações adicionais são mostradas na categoria correspondente da
+  caixa de diálogo Configurações do NVDA.
+* Requer NVDA 2018.4 ou posterior.
+* Se for necessário, pode fazer o download da [última versão compatível com
+  o NVDA 2017.3] [3].
+
 ## Aalterações para 3.0: ##
 * Foram adicionadas Caixas de selecção para ler espaços, retornos e outros
   caracteres em branco.
@@ -30,8 +38,12 @@ categoria Configuração.
 ## Alterações para 1.0: ##
 *	Versão inicial.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

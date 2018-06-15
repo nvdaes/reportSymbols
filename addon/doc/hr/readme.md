@@ -1,4 +1,5 @@
 # Izgovor Simbola #
+
 *	Autor: Noelia Ruiz Martínez.
 *	Preuzmi stabilnu inačicu][1]
 *	Preuzmi [razvojnu inačicu][2]
@@ -17,6 +18,13 @@ Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
 koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
 kategorija Konfiguracija.
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA
+  Settings dialog.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
+
 ## Promjene u inačici 3.0 ##
 * Dodani potvrdni okviri za izgovor razmaka, novih redaka i drugih znakova
   koji označavaju prazan prostor.
@@ -29,8 +37,12 @@ kategorija Konfiguracija.
 ## Promjene u inačici 1.0 ##
 *	Prva inačica.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

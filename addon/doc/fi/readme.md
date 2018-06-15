@@ -1,4 +1,5 @@
 # Puhu symbolit #
+
 *	Tekijä: Noelia Ruiz Martínez.
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][2]
@@ -18,6 +19,13 @@ Huom: Tälle valintaikkunalle voidaan määrittää syötekomento menemällä
 NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syötekomennot-vaihtoehto ja
 valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
+## Muutokset versiossa 4.0 ##
+* Lisäosan asetukset näkyvät omassa kategoriassaan
+  Asetukset-valintaikkunassa.
+* Vaatii NVDA 2018.2:n tai uudemman.
+* Tarvittaessa voit ladata [viimeisimmän version, joka on yhteensopiva NVDA
+  2017.3:n kanssa.][3]
+
 ## Muutokset versiossa 3.0 ##
 * Lisätty valintaruudut välilyöntien, rivinvaihtojen ja muiden tyhjämerkkien
   puhumiseen.
@@ -30,8 +38,12 @@ valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 ## Muutokset versiossa 1.0 ##
 *	Ensimmäinen versio.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

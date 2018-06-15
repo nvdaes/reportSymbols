@@ -9,12 +9,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 18:01+1000\n"
 "PO-Revision-Date: 2017-07-18 09:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.11\n"
 
 #. Translators: the label of a message box dialog.
@@ -29,10 +29,6 @@ msgstr ""
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
 msgstr "Afinstaller inkompatibelt tilføjelsesprogram"
-
-#. Translators: title of a dialog.
-msgid "Report Symbols settings"
-msgstr "Indstillinger for Oplæs symboler"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -50,12 +46,9 @@ msgstr "Oplæs &ny linje"
 msgid "Repor&t other blank characters"
 msgstr "Oplæs andre &blanke tegn"
 
-#. Translators: name of a menu item.
-msgid "Report &Symbols settings..."
-msgstr "Indstillinger for Oplæs &symboler..."
-
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings dialog."
+#, fuzzy
+msgid "Shows the Report Symbols settings."
 msgstr "Viser dialogen med indstillinger for Oplæs symboler."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -65,9 +58,16 @@ msgstr "Oplæs symboler"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
-"Allows to listen the typed symbols (non alphanumeric characters), even when "
-"the speaking of characters is turned off."
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
 "Giver dig mulighed for at høre de ikke-alfa-numeriske tegn, du skriver, selv "
 "hvis oplæsning af tegn er slået fra."
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "Indstillinger for Oplæs symboler"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "Indstillinger for Oplæs &symboler..."

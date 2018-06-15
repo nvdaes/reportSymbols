@@ -1,4 +1,5 @@
 # Report Symbols #
+
 *	Автор: Noelia Ruiz Martínez.
 *	Загрузить [стабильную версию][1]
 *	Загрузить [разрабатываемую версию][2]
@@ -16,6 +17,13 @@
 Примечание: вы можете назначить жест на открытие диалога настроек,
 проследовав в меню NVDA, подменю "Параметры", пункт "Жесты ввода".
 
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA
+  Settings dialog.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
+
 ## Изменения в версии 3.0 ##
 * Добавлены флажки для проговаривания пробелов, возврата каретки и других
   символов пустоты.
@@ -28,8 +36,12 @@
 ## Изменения в версии 1.0 ##
 *	Первоначальная версия.
 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon

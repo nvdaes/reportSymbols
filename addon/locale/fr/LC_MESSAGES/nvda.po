@@ -30,10 +30,6 @@ msgstr ""
 msgid "Uninstall incompatible add-on"
 msgstr "Désinstaller le module complémentaire incompatible"
 
-#. Translators: title of a dialog.
-msgid "Report Symbols settings"
-msgstr "Paramètres Report Symbols"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "Annoncer les symboles &imprimables"
@@ -50,12 +46,9 @@ msgstr "&Annoncer les retours de chariot"
 msgid "Repor&t other blank characters"
 msgstr "Annoncer d'au&tres caractères en blanc"
 
-#. Translators: name of a menu item.
-msgid "Report &Symbols settings..."
-msgstr "Paramètres Report &Symbols..."
-
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings dialog."
+#, fuzzy
+msgid "Shows the Report Symbols settings."
 msgstr "Affiche la boîte de dialogue Paramètres Report Symbols."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -65,9 +58,16 @@ msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
-"Allows to listen the typed symbols (non alphanumeric characters), even when "
-"the speaking of characters is turned off."
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
 "Permet d'écouter les symboles écrit (caractères non alphanumériques), même "
 "si la verbalisation des caractères écrit est désactivé."
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "Paramètres Report Symbols"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "Paramètres Report &Symbols..."
