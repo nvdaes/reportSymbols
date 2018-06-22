@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 18:01+1000\n"
-"PO-Revision-Date: 2017-07-18 09:45+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-06-15 16:31+0200\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: \n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -47,7 +47,6 @@ msgid "Repor&t other blank characters"
 msgstr "Oplæs andre &blanke tegn"
 
 #. Translators: message presented in input mode.
-#, fuzzy
 msgid "Shows the Report Symbols settings."
 msgstr "Viser dialogen med indstillinger for Oplæs symboler."
 
@@ -58,7 +57,6 @@ msgstr "Oplæs symboler"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2017-10-20 09:34+0200\n"
+"PO-Revision-Date: 2018-06-15 13:05+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -46,9 +46,8 @@ msgid "Repor&t other blank characters"
 msgstr "Raporteaz&ă alte caractere goale"
 
 #. Translators: message presented in input mode.
-#, fuzzy
 msgid "Shows the Report Symbols settings."
-msgstr "Arată dialogul de setări ReportSymbol."
+msgstr "Arată dialogul de setări Report Symbols."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -57,12 +56,11 @@ msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Îți permite să asculți simbolurile scrise (caracterele non alpha-numerice), "
+"Îți permite să asculți simbolurile scrise (caracterele non-alphanumerice), "
 "chiar dacă citirea caracterelor este dezactivată."
 
 #~ msgid "Report Symbols settings"

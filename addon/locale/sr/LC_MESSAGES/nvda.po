@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: reportSymbols 2.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-03-10 18:01+1000\n"
-"PO-Revision-Date: 2017-06-30 19:53+0100\n"
-"Last-Translator: Nikola Jovic <wwenikola123@gmail.com>\n"
+"PO-Revision-Date: 2018-06-16 16:39+0100\n"
+"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -46,9 +46,8 @@ msgid "Repor&t other blank characters"
 msgstr "&Prijavi druge prazne znakove"
 
 #. Translators: message presented in input mode.
-#, fuzzy
 msgid "Shows the Report Symbols settings."
-msgstr "Prikazuje dijalog podešavanja dodatka report simbols"
+msgstr "Prikazuje podešavanja dodatka report simbols"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -57,7 +56,6 @@ msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."

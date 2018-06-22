@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2017-11-27 10:34+0200\n"
+"PO-Revision-Date: 2018-06-15 11:30+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -46,9 +46,8 @@ msgid "Repor&t other blank characters"
 msgstr "Докладвай други &празни знаци"
 
 #. Translators: message presented in input mode.
-#, fuzzy
 msgid "Shows the Report Symbols settings."
-msgstr "Показва диалоговия прозорец с настройките за съобщаване на символите."
+msgstr "Показва настройките за съобщаване на символите."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -57,13 +56,13 @@ msgstr "Съобщаване на символите"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Позволява да прослушвате въвежданите символи (не буквено-цифровите знаци), "
-"дори когато опцията \"Изговаряй въведените букви или знаци\" е изключена."
+"Позволява да прослушвате въвежданите символи (не буквено-цифровите или "
+"празните знаци), дори когато опцията \"Изговаряй въведените букви или знаци"
+"\" е изключена."
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Настройки за съобщаването на символите"

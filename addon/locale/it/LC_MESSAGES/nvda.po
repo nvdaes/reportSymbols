@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2017-09-25 11:41+0200\n"
+"PO-Revision-Date: 2018-06-15 16:01+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -46,9 +46,8 @@ msgid "Repor&t other blank characters"
 msgstr "Leggi al&tri caratteri vuoti"
 
 #. Translators: message presented in input mode.
-#, fuzzy
 msgid "Shows the Report Symbols settings."
-msgstr "Visualizza la finestra impostazioni lettura simboli"
+msgstr "Visualizza le impostazioni di lettura simboli"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -57,13 +56,12 @@ msgstr "Leggi simboli"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Consente di ascoltare il simbolo digitato (caratteri non alfanumerici), "
-"anche quando la lettura caratteri digitati è disattivata."
+"Consente di ascoltare i simboli digitati (caratteri non alfanumerici), anche "
+"quando la lettura caratteri digitati è disattivata."
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Impostazioni lettura simboli"

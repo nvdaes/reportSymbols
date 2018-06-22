@@ -21,12 +21,12 @@ Hinweis: Eine Tastenkürzel zum Öffnen dieses Dialogs kann über das
 NVDA-Menü, Untermenü Einstellungen, Dialog Eingaben, Kategorie Konfiguration
 zugewiesen werden.
 
-## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
+## Änderungen für 4.0 ##
+* Die Einstellungen für die Erweiterung werden in der entsprechenden
+  Kategorie des NVDA-Einstellungsdialogs angezeigt.
+* Benötigt NVDA 2018.2 oder höher.
+* Bei Bedarf können Sie die [letzte Version, die mit NVDA 2017.3 kompatibel
+  ist][3] herunterladen.
 
 ## Änderungen in 3.0 ##
 * Es wurden Kontrollfelder für das Ansagen der Leerzeichen, Wagenrücklauf

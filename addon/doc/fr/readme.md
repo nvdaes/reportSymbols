@@ -20,12 +20,12 @@ Note : Un geste pour ouvrir cette boîte de dialogue peut être assigné en
 allant dans le menu NVDA, sous-menu Préférences, dans le dialogue Gestes de
 commandes, dans la catégorie Configuration.
 
-## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
+## Changements pour la version 4.0 ##
+* Les paramètres du module complémentaire sont affichés dans la catégorie
+  correspondante au dialogue Paramètres NVDA.
+* Nécessite NVDA 2018.2 ou ultérieur.
+* Si nécessaire, vous pouvez télécharger la [dernière version compatible
+  avec NVDA 2017.3][3].
 
 ## Changements pour la version 3.0 ##
 * Ajout de cases à cocher pour la verbalisation des espaces, des retours de
