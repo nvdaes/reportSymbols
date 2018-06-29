@@ -19,11 +19,11 @@ Notă: Un gest pentru deschiderea acestui dialog poate fi atribuit din meniul
 NVDA, submeniul preferințe, dialogul gesturilor de intrare, secțiunea
 Configurare.
 
-## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
+## Modificări în 4.0Modificări în 1.0 ##
+* Setările suplimentuli sunt afișate în categoria corespunzătoare a
+  dialogului setărilor NVDA.
+* Necesită NVDA 2018.2 sau mai nou.
+* Dacă e necesar, puteți să descărcați [ultima versiune compatibilă cu NVDA
   2017.3][3].
 
 ## Modificări în 3.0Modificări în 1.0 ##

@@ -18,12 +18,12 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
-## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
+## Cambios para 4.0 ##
+* A configuración do complemento amósase na categoría correspondente do
+  diálogo oPcións do NVDA.
+* Requírese NVDA 2018.4 ou posterior.
+* Se fora necesario, podes descargar a [derradeira versión compatible co
+  NVDA 2017.3][3].
 
 ## Cambios para 3.0 ##
 * Engadidas caixas de verificación para a fala de espazos, retornos de carro

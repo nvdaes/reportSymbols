@@ -18,12 +18,12 @@ autora. Deberías desinstalarlo para utilizar esta versión.
 Nota: Se puede asignar un gesto para abrir este diálogo desde el menú NVDA,
 submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
-## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
+## Cambios para 4.0 ##
+* La configuración del complemento se muestra en la categoría
+  correspondiente del diálogo oPciones de NVDA.
+* Se requiere de NVDA 2018.2 o posterior.
+* Si fuese necesario, puedes descargar la [última versión compatible con
+  NVDA 2017.3][3].
 
 ## Cambios para 3.0 ##
 * Añadidas casillas de verificación para la verbalización de espacios,
