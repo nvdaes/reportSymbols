@@ -1,59 +1,58 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the reportSymbols package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: reportSymbols 1.0\n"
+"Project-Id-Version: reportSymbols 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2018-07-07 14:16+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
-"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
-"Language: fi\n"
+"POT-Creation-Date: 2017-02-03 18:01+1000\n"
+"PO-Revision-Date: 2018-07-08 00:33+0300\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You have installed the ReportSymbols add-on, probably an old and "
 "incompatible version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Asennettuna on vanha ReportSymbols-lisäosa, joka ei ole yhteensopiva tämän "
-"version kanssa. Haluatko poistaa vanhan version?"
+"Įdiegtas priedas „ReportSymbols“ greičiausiai yra pasenęs ir nebesuderinamas "
+"su šia versija. Ar norite pašalinti senąją versiją?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Poista yhteensopimaton lisäosa"
+msgstr "Nebesuderinamo priedo pašalinimas"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
-msgstr "Puhu tu&lostuvat symbolit"
+msgstr "Pranešti apie &spausdintinus simbolius"
 
 #. Translators: label of a dialog.
 msgid "Report &spaces"
-msgstr "Puhu v&älilyönnit"
+msgstr "Pranešti apie &tarpo simbolius"
 
 #. Translators: label of a dialog.
 msgid "&Report carriage returns"
-msgstr "Puhu r&ivinvaihdot"
+msgstr "&Pranešti apie eilutės pradžios simbolius (angl. Carriage return)"
 
 #. Translators: label of a dialog.
 msgid "Repor&t other blank characters"
-msgstr "Puhu &muut tyhjämerkit"
+msgstr "Pranešt&i apie kitus tuščius simbolius"
 
 #. Translators: message presented in input mode.
 msgid "Shows the Report Symbols settings."
-msgstr "Näyttää Puhu symbolit -lisäosan asetukset."
+msgstr "Atveria priedo „Report Symbols“ parametrų langą."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Report Symbols"
-msgstr "Puhu symbolit"
+msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -61,11 +60,5 @@ msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Mahdollistaa kirjoitettujen symbolien (ei-aakkosnumeeristen ja "
-"tyhjämerkkien) kuulemisen, vaikka merkkien puhuminen on poistettu käytöstä."
-
-#~ msgid "Report Symbols settings"
-#~ msgstr "Symbolien puhumisen asetukset"
-
-#~ msgid "Report &Symbols settings..."
-#~ msgstr "Puhu s&ymbolit..."
+"Leidžia išklausyti parašytus simbolius (ne raidinius ir ne skaitinius arba "
+"tuščius rašmenis), net jeigu ir išjungtas įvedamų simbolių tarimas."
