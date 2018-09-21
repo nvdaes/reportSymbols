@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 3.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-04-06 18:05+1000\n"
-"PO-Revision-Date: 2018-06-13 07:24+0800\n"
+"PO-Revision-Date: 2018-09-16 21:53+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -44,9 +44,8 @@ msgid "Repor&t other blank characters"
 msgstr "&朗读其他空白字符"
 
 #. Translators: message presented in input mode.
-#, fuzzy
 msgid "Shows the Report Symbols settings."
-msgstr "显示朗读符号设置对话框。"
+msgstr "显示朗读符号设置对话框."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -55,13 +54,12 @@ msgstr "朗读符号"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
 "此插件允许听取输入的符号包括（非字母数字的字符），即使关闭了NVDA的输入字符朗"
-"读。"
+"读."
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "朗读符号设置"
