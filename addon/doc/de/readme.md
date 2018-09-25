@@ -47,5 +47,4 @@ zugewiesen werden.
 
 [2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
 
-[3]:
-https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=rsy-o
