@@ -31,5 +31,4 @@ Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences 
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
 
-[3]: https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon
-
+[3]: http://addons.nvda-project.org/files/get.php?file=rsy-o
