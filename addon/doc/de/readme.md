@@ -2,7 +2,7 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	[stabile version][1] herunterladen
-*	[Testversion herunterladen][2]
+*	[Entwicklungsversion herunterladen][2]
 
 Diese Erweiterung ermöglicht die Ansage der Symbole beim Tippen
 (z.B. Satzzeichen). Alphanumerische und leere Zeichen werden nicht
