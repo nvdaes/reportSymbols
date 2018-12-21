@@ -1,6 +1,7 @@
 # Szimbólumok bemondása #
 
 *	Írta: Noelia Ruiz Martínez.
+*	NVDA compatibility: 2018.2 to 2019.1
 *	Letöltés [stabil verzió][1]
 *	Letöltés [fejlesztői verzió][2]
 

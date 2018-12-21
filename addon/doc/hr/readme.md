@@ -1,6 +1,7 @@
 # Izgovor Simbola #
 
 *	Autor: Noelia Ruiz Martínez.
+*	NVDA compatibility: 2018.2 to 2019.1
 *	Preuzmi stabilnu inačicu][1]
 *	Preuzmi [razvojnu inačicu][2]
 

@@ -1,6 +1,7 @@
 # Report Symbols #
 
 *	Автор: Noelia Ruiz Martínez.
+*	NVDA compatibility: 2018.2 to 2019.1
 *	Загрузить [стабильную версию][1]
 *	Загрузить [разрабатываемую версию][2]
 
