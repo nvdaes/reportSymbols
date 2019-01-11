@@ -1,7 +1,7 @@
 # Report Symbols #
 
 *	Autrice: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.1
+*	Compatibilità con NVDA: dalla 2018.2 alla 2019.1
 *	Download [stable version][1]
 *	Download [development version][2]
 
@@ -22,10 +22,10 @@ tramite le impostazioni Gesti e tasti di immissione, nella categoria
 Configurazione.
 
 ## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
+* Le impostazioni del componente aggiuntivo vengono visualizzate nella
+  finestra impostazioni di NVDA sotto la rispettiva categoria.
+* Richiede NVDA 2018.2 o superiori.
+* SE è necessario, si può scaricare la versione [compatibile con NVDA
   2017.3][3].
 
 ## Novità nella versione 3.0 ##
