@@ -5,13 +5,13 @@
 *	Télécharger [version stable][1]
 *	Télécharger [version de développement][2]
 
-Ce module complémentaire permet d'écouter les symboles écrit (caractères non
+Cette extension permet d'écouter les symboles écrit (caractères non
 alphanumériques ou caractères en blanc), même si la verbalisation des
-caractères écrit est désactivé dans NVDA.
+caractères écrit est désactivée dans NVDA.
 
-Il est basé sur l'ancien module complémentaire ReportSymbols, développé par
-le même auteur. Vous devez désinstaller celui-ci pour utiliser cette
-nouvelle version.
+Elle est basée sur l'ancienne extension ReportSymbols, développée par le
+même auteur. Vous devez désinstaller celle-ci pour utiliser cette nouvelle
+version.
 
 ## Menu Préférences ##
 *	Paramètres Report Symbols : Permet de définir les préférences pour  la
