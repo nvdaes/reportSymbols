@@ -2,8 +2,8 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	NVDA-Kompatibilität: 2018.2 bis 2019.1
-*	[stabile version][1] herunterladen
-*	[Entwicklungsversion herunterladen][2]
+*	[Stabile Version herunterladen][1]
+*	[Entwicklerversion herunterladen][2]
 
 Diese Erweiterung ermöglicht die Ansage der Symbole beim Tippen
 (z.B. Satzzeichen). Alphanumerische und leere Zeichen werden nicht
