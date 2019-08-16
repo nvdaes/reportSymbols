@@ -1,7 +1,7 @@
 # Report Symbols #
 
 *	저자: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.1
+*	NVDA compatibility: 2018.2 to 2019.2
 *	Download [안정 버전][1]
 *	Download [개발 버전][2]
 

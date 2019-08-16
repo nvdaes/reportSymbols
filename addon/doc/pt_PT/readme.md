@@ -1,7 +1,7 @@
 # Leitura de Símbolos #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Compatibilidade com o NVDA: 2018.2 até 2019.1
+*	NVDA compatibility: 2018.2 to 2019.2
 *	Baixar [versão estável][1]
 *	Baixar [versão de desenvolvimento][2]
 

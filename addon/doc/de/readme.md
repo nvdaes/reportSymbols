@@ -1,7 +1,7 @@
 # Symbole ansagen #
 
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA-Kompatibilität: 2018.2 bis 2019.1
+*	NVDA-Kompatibilität: 2018.2 bis 2019.2
 *	[Stabile Version herunterladen][1]
 *	[Entwicklerversion herunterladen][2]
 

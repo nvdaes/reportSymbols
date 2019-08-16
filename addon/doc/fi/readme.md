@@ -1,7 +1,7 @@
 # Puhu symbolit #
 
 *	Tekijä: Noelia Ruiz Martínez.
-*	NVDA-yhteensopivuus: 2018.2-2019.1
+*	Yhteensopivuus: NVDA 2018.2-2019.2
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][2]
 
