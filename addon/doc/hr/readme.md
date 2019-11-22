@@ -1,42 +1,44 @@
-# Izgovor Simbola #
+# Izvijesti o znakovima (Report Symbols) #
 
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.2
-*	Preuzmi stabilnu inačicu][1]
-*	Preuzmi [razvojnu inačicu][2]
+*	NVDA kompatibilnost: 2018.2 do 2019.2
+*	Preuzmi [stabilnu verziju][1]
+*	Preuzmi [razvojnu verziju][2]
 
-Ovaj dodatak omogućava slušanje unesenih znakova (ne alfanumeričkih), čak i
-kada je izgovor unesenih znakova isključen u programu NVDA.
+Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
+ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno
+u NVDA čitaču.
 
-Baziran je na starom ReportSymbols dodatku koji je razvio isti
-autor. Trebali biste deinstalirati stari dodatak za korištenje ove inačice.
+Zasniva se na starom dodatku „ReportSymbols” koji je razvio isti autor. Da
+bi se koristila ova verzija dodatka, potrebno je deinstalirati stari
+dodatak.
 
-## Izbornik Postavke  ##
-*	Report Symbols postavke: Dozvoljava definiranje postavki izgovora unesenih
-  simbola.
+## Izbornik postavaka ##
+*	Postavke dodatka „Izvijesti o znakovima”: Dozvoljava definiranje postavki
+  za izgovaranje utipkanih znakova.
 
 Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
 koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
 kategorija Konfiguracija.
 
-## Changes for 4.0 ##
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
+## Promjene u verziji 4.0 ##
+* Postavke dodatka se prikazuju u odgovarajućoj kategoriji dijaloškog okvira
+  NVDA Postavke.
+* Zahtijeva NVDA verziju 2018.2 ili noviju.
+* Ako treba, moguće je preuzeti [zadnju verziju kompatibilnu s NVDA
   2017.3][3].
 
-## Promjene u inačici 3.0 ##
-* Dodani potvrdni okviri za izgovor razmaka, novih redaka i drugih znakova
-  koji označavaju prazan prostor.
+## Promjene u verziji 3.0 ##
+* Dodani potvrdni okviri za izgovaranje razmaka, prelazaka u novi redak i
+  drugih praznih znakova, koji označavaju prazan prostor.
 
-## Promjene u inačici 2.0 ##
+## Promjene u verziji 2.0 ##
 *	Poboljšan je vizualni prikaz dijaloškog okvira, u skladu s prikazom
   dijaloških okvira u NVDA.
-*	Zahtijeva NVDA inačicu 2016.4 ili noviju.
+*	Zahtijeva NVDA verziju 2016.4 ili noviju.
 
-## Promjene u inačici 1.0 ##
-*	Prva inačica.
+## Promjene u verziji 1.0 ##
+*	Prva verzija.
 
 
 [[!tag dev stable]]
