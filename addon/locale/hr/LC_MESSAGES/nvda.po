@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2019-11-15 23:29+0100\n"
+"PO-Revision-Date: 2019-12-23 13:11+0100\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: hr <zvonimirek222@yandex.com>\n"
 "Language: hr\n"
@@ -25,8 +25,8 @@ msgid ""
 "You have installed the ReportSymbols add-on, probably an old and "
 "incompatible version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Vjerojatno je instalirana stara i nekompatibilna verzija dodatka „Izvijesti "
-"o znakovima”. Želiš li ukloniti staru verziju?"
+"Vjerojatno je instalirana stara i nekompatibilna verzija dodatka „Javi "
+"znakove”. Želiš li ukloniti staru verziju?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
@@ -34,28 +34,28 @@ msgstr "Ukloni nekompatibilni dodatak"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
-msgstr "Izvijesti o is&pisivim simbolima"
+msgstr "Javi is&pisive simbole"
 
 #. Translators: label of a dialog.
 msgid "Report &spaces"
-msgstr "Izvije&sti o razmacima"
+msgstr "Javi ra&zmake"
 
 #. Translators: label of a dialog.
 msgid "&Report carriage returns"
-msgstr "Izvijesti o p&relascima u novi redak"
+msgstr "Javi p&relazak u novi redak"
 
 #. Translators: label of a dialog.
 msgid "Repor&t other blank characters"
-msgstr "Izvijes&ti o ostalim praznim znakovima"
+msgstr "Javi os&tale prazne znakove"
 
 #. Translators: message presented in input mode.
 msgid "Shows the Report Symbols settings."
-msgstr "Prikazuje postavke dodatka „Izvijesti o znakovima”."
+msgstr "Prikazuje postavke dodatka „Javi znakove”."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Report Symbols"
-msgstr "Izvijesti o znakovima"
+msgstr "Javi znakove"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -63,5 +63,5 @@ msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Omogućava slušanje utipkanih znakova (nealfanumeričkih znakova ili praznih "
+"Omogućuje slušanje utipkanih znakova (nealfanumeričkih znakova ili praznih "
 "znakova), čak i kad je izgovaranje utipkanih znakova isključeno."

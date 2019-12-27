@@ -1,4 +1,4 @@
-# Izvijesti o znakovima (Report Symbols) #
+# Javi znakove #
 
 *	Autor: Noelia Ruiz Martínez.
 *	NVDA kompatibilnost: 2018.2 do 2019.2
@@ -14,8 +14,8 @@ bi se koristila ova verzija dodatka, potrebno je deinstalirati stari
 dodatak.
 
 ## Izbornik postavaka ##
-*	Postavke dodatka „Izvijesti o znakovima”: Dozvoljava definiranje postavki
-  za izgovaranje utipkanih znakova.
+*	Postavke dodatka „Javi znakove”: Dozvoljava definiranje postavki za
+  izgovaranje utipkanih znakova.
 
 Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
 koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
