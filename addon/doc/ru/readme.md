@@ -1,7 +1,6 @@
 # Report Symbols #
-
 *	Автор: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Загрузить [стабильную версию][1]
 *	Загрузить [разрабатываемую версию][2]
 
@@ -17,6 +16,10 @@
 
 Примечание: вы можете назначить жест на открытие диалога настроек,
 проследовав в меню NVDA, подменю "Параметры", пункт "Жесты ввода".
+
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
 
 ## Changes for 4.0 ##
 * The add-on settings are shown in the corresponding category of the NVDA
@@ -36,7 +39,6 @@
 
 ## Изменения в версии 1.0 ##
 *	Первоначальная версия.
-
 
 [[!tag dev stable]]
 

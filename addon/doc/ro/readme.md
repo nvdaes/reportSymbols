@@ -1,7 +1,6 @@
 # Report Symbols #
-
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Descărcați [versiunea stabilă][1]
 *	Descărcați [versiunea în dezvoltare][2]
 
@@ -19,6 +18,10 @@ autor. Trebuie să-l dezinstalați ca să folosiți această versiune.
 Notă: Un gest pentru deschiderea acestui dialog poate fi atribuit din meniul
 NVDA, submeniul preferințe, dialogul gesturilor de intrare, secțiunea
 Configurare.
+
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
 
 ## Modificări în 4.0Modificări în 1.0 ##
 * Setările suplimentuli sunt afișate în categoria corespunzătoare a
@@ -38,7 +41,6 @@ Configurare.
 
 ## Modificări în 1.0 ##
 *	Versiunea inițială.
-
 
 [[!tag dev stable]]
 

@@ -1,7 +1,6 @@
 # Javi znakove #
-
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA kompatibilnost: 2018.2 do 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Preuzmi [stabilnu verziju][1]
 *	Preuzmi [razvojnu verziju][2]
 
@@ -21,6 +20,10 @@ Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
 koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
 kategorija Konfiguracija.
 
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Promjene u verziji 4.0 ##
 * Postavke dodatka se prikazuju u odgovarajućoj kategoriji dijaloškog okvira
   NVDA Postavke.
@@ -39,7 +42,6 @@ kategorija Konfiguracija.
 
 ## Promjene u verziji 1.0 ##
 *	Prva verzija.
-
 
 [[!tag dev stable]]
 

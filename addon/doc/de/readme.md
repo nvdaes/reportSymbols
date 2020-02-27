@@ -1,7 +1,6 @@
 # Symbole ansagen #
-
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA-Kompatibilität: 2018.2 bis 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	[Stabile Version herunterladen][1]
 *	[Entwicklerversion herunterladen][2]
 
@@ -22,6 +21,10 @@ Hinweis: Eine Tastenkürzel zum Öffnen dieses Dialogs kann über das
 NVDA-Menü, Untermenü Einstellungen, Dialog Eingaben, Kategorie Konfiguration
 zugewiesen werden.
 
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Änderungen für 4.0 ##
 * Die Einstellungen für die Erweiterung werden in der entsprechenden
   Kategorie des NVDA-Einstellungsdialogs angezeigt.
@@ -40,7 +43,6 @@ zugewiesen werden.
 
 ## Änderungen in 1.0 ##
 *	Ehrstveröffentlichung.
-
 
 [[!tag dev stable]]
 

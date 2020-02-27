@@ -1,7 +1,6 @@
 # Leitura de Símbolos #
-
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Baixar [versão estável][1]
 *	Baixar [versão de desenvolvimento][2]
 
@@ -19,6 +18,10 @@ mesmo autor. deve desinstalá-lo para usar esta versão.
 Nota: Um comando para abrir esta caixa de diálogo pode ser atribuído a
 partir do menu NVDA, submenu Preferências, diálogo definir comandos,
 categoria Configuração.
+
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
 
 ## Alterações para 4.0: ##
 * As configurações adicionais são mostradas na categoria correspondente da
@@ -38,7 +41,6 @@ categoria Configuração.
 
 ## Alterações para 1.0: ##
 *	Versão inicial.
-
 
 [[!tag dev stable]]
 

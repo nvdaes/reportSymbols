@@ -1,7 +1,6 @@
 # Report Symbols #
-
 *	Autrice: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Download [stable version][1]
 *	Download [development version][2]
 
@@ -21,6 +20,10 @@ Nota: è possibile assegnare un comando rapido per aprire questa finestra
 tramite le impostazioni Gesti e tasti di immissione, nella categoria
 Configurazione.
 
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Changes for 4.0 ##
 * Le impostazioni del componente aggiuntivo vengono visualizzate nella
   finestra impostazioni di NVDA sotto la rispettiva categoria.
@@ -39,7 +42,6 @@ Configurazione.
 
 ## Cambiamenti per 1.0 ##
 *	Versione iniziale.
-
 
 [[!tag dev stable]]
 

@@ -1,7 +1,6 @@
 # Puhu symbolit #
-
 *	Tekijä: Noelia Ruiz Martínez.
-*	Yhteensopivuus: NVDA 2018.2-2019.2
+*	Yhteensopivuus: NVDA 2019.3 tai uudempi
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][2]
 
@@ -19,6 +18,10 @@ tulisi poistaa se tämän version käyttämiseksi.
 Huom: Tälle valintaikkunalle voidaan määrittää syötekomento menemällä
 NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syötekomennot-vaihtoehto ja
 valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
+
+
+## Muutokset versiossa 5.0 ##
+*	Edellyttää NVDA 2019.3:a tai uudempaa.
 
 ## Muutokset versiossa 4.0 ##
 * Lisäosan asetukset näkyvät omassa kategoriassaan
@@ -38,7 +41,6 @@ valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
 ## Muutokset versiossa 1.0 ##
 *	Ensimmäinen versio.
-
 
 [[!tag dev stable]]
 

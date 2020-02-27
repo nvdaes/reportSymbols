@@ -1,7 +1,6 @@
 # Report Symbols #
-
 *	Autor: Noelia Ruiz Martínez.
-*	Compatibilidade con NVDA: da 2018.2 á 2019.2
+*	Compatibilidade con NVDA: 2019.3 ou posterior.
 *	Descargar [versión estable][1]
 *	Descargar [versión de desenvolvemento][2]
 
@@ -18,6 +17,10 @@ autora. Deberías desinstalalo para utilizar esta versión.
 
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
+
+
+## Cambios para 5.0 ##
+*	Require NVDA 2019.3 ou posterior.
 
 ## Cambios para 4.0 ##
 * A configuración do complemento amósase na categoría correspondente do
@@ -37,7 +40,6 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
 ## Cambios para 1.0 ##
 *	Versión inicial.
-
 
 [[!tag dev stable]]
 

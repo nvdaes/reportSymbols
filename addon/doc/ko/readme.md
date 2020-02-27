@@ -1,7 +1,6 @@
 # Report Symbols #
-
 *	저자: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2018.2 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Download [안정 버전][1]
 *	Download [개발 버전][2]
 
@@ -14,6 +13,10 @@
 
 참고: 이 대화상자를 여는 제스처는 NVDA 메뉴, 환경 설정 하위 메뉴, 입력 제스처 대화상자, 환경 설정 카테고리에서 지정할 수
 있습니다.
+
+
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
 
 ## Changes for 4.0 ##
 * The add-on settings are shown in the corresponding category of the NVDA
@@ -31,7 +34,6 @@
 
 ## 1.0에서의 변경사항 ##
 *	첫 번째 버전
-
 
 [[!tag dev stable]]
 

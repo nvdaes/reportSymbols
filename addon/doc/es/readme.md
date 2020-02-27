@@ -1,7 +1,6 @@
 # Report Symbols #
-
 *	Autor: Noelia Ruiz Martínez.
-*	Compatibilidad con NVDA: de 2018.2 a 2019.2
+*	Compatibilidad con NVDA: 2019.3 o posterior.
 *	Descargar [versión estable][1]
 *	Descargar [versión de desarrollo][2]
 
@@ -18,6 +17,10 @@ autora. Deberías desinstalarlo para utilizar esta versión.
 
 Nota: Se puede asignar un gesto para abrir este diálogo desde el menú NVDA,
 submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
+
+
+## Cambios para 5.0 ##
+*	Se requiere NVDA 2019.3 o posterior.
 
 ## Cambios para 4.0 ##
 * La configuración del complemento se muestra en la categoría
@@ -37,7 +40,6 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
 ## Cambios para 1.0 ##
 *	Versión inicial.
-
 
 [[!tag dev stable]]
 
