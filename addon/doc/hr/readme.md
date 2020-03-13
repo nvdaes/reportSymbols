@@ -1,6 +1,6 @@
-# Javi znakove #
+# Javi znakove (Report Symbols) #
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2019.3 or later.
+*	NVDA kompatibilnost: 2019.3 i novija.
 *	Preuzmi [stabilnu verziju][1]
 *	Preuzmi [razvojnu verziju][2]
 
@@ -21,8 +21,8 @@ koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
 kategorija Konfiguracija.
 
 
-## Changes for 5.0 ##
-*	Requires NVDA 2019.3 or later.
+## Promjene u verziji 5.0 ##
+*	Zahtijeva NVDA verziju 2019.3 ili noviju.
 
 ## Promjene u verziji 4.0 ##
 * Postavke dodatka se prikazuju u odgovarajućoj kategoriji dijaloškog okvira
