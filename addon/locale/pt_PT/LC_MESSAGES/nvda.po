@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reportSymbols 3.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-09-29 18:01+1000\n"
-"PO-Revision-Date: 2018-06-15 10:38+0100\n"
+"PO-Revision-Date: 2020-03-17 23:02+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -25,11 +25,11 @@ msgid ""
 "incompatible version with this one. Do you want to uninstall the old version?"
 msgstr ""
 "Já tem instalado o extra ReportSymbols, provavelmente uma versão antiga e "
-"incompatível com este. Deseja desinstalar a versão antiga?"
+"incompatível com esta. Deseja desinstalar a versão antiga?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Desinstalar a versão do extra incompatível"
+msgstr "Desinstalar a versão incompatível do extra"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -37,19 +37,19 @@ msgstr "Anunciar símbolos im&primíveis"
 
 #. Translators: label of a dialog.
 msgid "Report &spaces"
-msgstr "Anunciar espaços"
+msgstr "Anunciar &espaços"
 
 #. Translators: label of a dialog.
 msgid "&Report carriage returns"
-msgstr "Anuncia&r mudanças de linha"
+msgstr "Anunciar mudanças de &linha"
 
 #. Translators: label of a dialog.
 msgid "Repor&t other blank characters"
-msgstr "Indicar ou&tros caracteres vazios"
+msgstr "Anunciar caracteres &invisíveis"
 
 #. Translators: message presented in input mode.
 msgid "Shows the Report Symbols settings."
-msgstr "Mostra as configurações de Report Symbols."
+msgstr "Mostra as configurações de Anunciar símbolos."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -62,8 +62,8 @@ msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Permite ouvir os símbolos digitados (caracteres não alfanuméricos), mesmo "
-"quando  falar símbolos foi desactivado."
+"Permite ouvir os símbolos digitados (caracteres não alfanuméricos ou invisíveis), mesmo "
+"quando  a opção \"Anunciar caracteres\" está desactivada."
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Configurações do Report Symbols"
