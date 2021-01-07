@@ -12,14 +12,11 @@ import wx
 import gui
 from gui import SettingsPanel, NVDASettingsDialog, guiHelper
 from globalCommands import SCRCAT_CONFIG
+from scriptHandler import script
 
 addonHandler.initTranslation()
 
-ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
-try:
-	ADDON_PANEL_TITLE = unicode(ADDON_SUMMARY)
-except NameError:
-	ADDON_PANEL_TITLE = str(ADDON_SUMMARY)
+ADDON_PANEL_TITLE = addonHandler.getCodeAddon().manifest["summary"]
 
 confspec = {
 	"speakTypedSymbols": "boolean(default=False)",
@@ -87,8 +84,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def onSettings(self, evt):
 		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
+	@script(
+		category=SCRCAT_CONFIG,
+		# Translators: message presented in input mode.
+		description=_("Shows the Report Symbols settings.")
+	)
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettings, None)
-	script_settings.category = SCRCAT_CONFIG
-	# Translators: message presented in input mode.
-	script_settings.__doc__ = _("Shows the Report Symbols settings.")
