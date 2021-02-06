@@ -1,94 +1,52 @@
-# eMule #
-
-*	Autori: Noelia, Chris, Alberto.
+# Javi znakove (Report Symbols) #
+*	Autor: Noelia Ruiz Martínez.
 *	NVDA kompatibilnost: 2019.3 i novija.
 *	Preuzmi [stabilnu verziju][1]
-*	Preuzmi [razvojnu verziju][3]
-*	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
+*	Preuzmi [razvojnu verziju][2]
 
-Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
-čitača. Također pruža dodatne tipkovničke prečace za premještanje po
-različitim prozorima i daje korisne informacije u eMuleu.
+Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
+ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno
+u NVDA čitaču.
 
-Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
-autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
-dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
+Zasniva se na starom dodatku „ReportSymbols” koji je razvio isti autor. Da
+bi se koristila ova verzija dodatka, potrebno je deinstalirati stari
+dodatak.
 
-Testirano na [eMule][2] 0.50a.
+## Izbornik postavaka ##
+*	Postavke dodatka „Javi znakove”: Dozvoljava definiranje postavki za
+  izgovaranje utipkanih znakova.
 
-## Tipkovnički prečaci: ##
+Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
+koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
+kategorija Konfiguracija.
 
-*	kontrol+šift+h: Premješta fokus i miša na glavnu alatnu traku.
-*	kontrol+šift+t: Čita trenutačni prozor.
-*	kontrol+šift+n: Premješta fokus na polje za ime u prozoru pretrage.
-*	kontrol+šift+p: U prozoru pretrage, premješta fokus i miša na popis
-  parametara pretrage ili na opcije uređivačkog polja.
-*	kontrol+šift+b: Premješta fokus na popis u trenutačnom prozoru. Na
-  primjer, korisno u prozoru pretrage, preuzimanja u prozoru transfera, itd.
-*	kontrol+šift+o: Premješta fokus na polja za uređivanje koja su samo za
-  čitanje u trenutačnom prozoru. Na primjer, IRC primljene poruke, dostupni
-  poslužitelji, itd.
-*	kontrol+NVDA+f: Ako se kursor nalazi u polju za uređivanje koje je samo za
-  čitanje, otvara se dijalog za pretragu s NVDA naredbama za traženje
-  teksta.
-*	kontrol+šift+l: Premješta navigacijski objekt i miša na zaglavlja
-  trenutačnog popisa.
-*	kontrol+šift+q: Šita prvi objekt u statusnoj traci; pruža informacije o
-  nedavnoj aktivnosti.
-*	kontrol+šift+w: Čita drugi objekt statusne trake; sadrži informacije o
-  datotekama i korisnicima na trenutačnom poslužitelju.
-*	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
-  doznati brzina slanja/preuzimanja.
-*	kontrol+šift+r: Čita četvrti objekt statusne trake; izvještava o
-  povezivosti ed2k i Kad mreže.
 
-## Upravljanje stupcima. ##
-
-Kad se nalaziš unutar popisa, možeš premještati kursor između stupaca i
-redaka pomoću alt+control+strelice. U ovom dodatku su dostupni i slijedeći
-prečaci:
-
-*	nvda+kontrol+1-0: Čita prvih deset stupaca.
-*	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
-*	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
+## Promjene u verziji 5.0 ##
+*	Zahtijeva NVDA verziju 2019.3 ili noviju.
 
 ## Promjene u verziji 4.0 ##
-*	Zahtijeva NVDA 2019.3 ili noviju verziju.
+* Postavke dodatka se prikazuju u odgovarajućoj kategoriji dijaloškog okvira
+  NVDA Postavke.
+* Zahtijeva NVDA verziju 2018.2 ili noviju.
+* Ako treba, moguće je preuzeti [zadnju verziju kompatibilnu s NVDA
+  2017.3][3].
+
+## Promjene u verziji 3.0 ##
+* Dodani potvrdni okviri za izgovaranje razmaka, prelazaka u novi redak i
+  drugih praznih znakova, koji označavaju prazan prostor.
 
 ## Promjene u verziji 2.0 ##
-*	 Za pretraživanje teksta u poljima koja su samo za čitanje, moguće je
-   koristiti dijaloški okvir pretrage, odnosno aktivirati ga pomoću tipki
-   nvda+kontrol+f.
+*	Poboljšan je vizualni prikaz dijaloškog okvira, u skladu s prikazom
+  dijaloških okvira u NVDA.
+*	Zahtijeva NVDA verziju 2016.4 ili noviju.
 
-## Promjene u verziji 2.0 ##
-*	 Pomoć za dodatak je dostupna unutar upravljača dodataka.
-
-## Promjene u verziji 1.2 ##
-*	 Prilikom premještanja na IRC poruke, označeni se tekst čita ispravno.
-*	 Tipkovnički prečac za prijelaz na popis rezultata pretraživanja je sada
-   poopćen, kako bi se fokus mogao premjestiti na bilo koji dostupni popis u
-   trenutačnom prozoru.
-*	 Prečac koji se koristi za fokusiranje IRC poruka je sada poopćen, kako bi
-   se omogućilo premještanje na bilo koje polje za uređivanje koje je samo
-   za čitanje, čime se omogućuje pregled informacija o povezivosti u prozoru
-   Poslužitelji.
-*	 Prilikom premještanja miša ili fokusa na alatnu traku, u nekim se
-   slučajevima ovo izgovaralo dvaput. To je sada ispravljeno.
-
-## Promjene u verziji 1.1 ##
-*	 Ispravljena greška u e mule stavci izbornika unutar  NVDA izbornika
-   pomoć, kada korisnička mapa konfiguracije sadrži nelatinične znakove.
-*	 Prečace je sada moguće prenamijeniti, koristeći dijaloški okvir ulazne
-   geste u NVDA izborniku.
-
-## Promjene u verziji1.0 ##
-*	 Prva verzija.
-
+## Promjene u verziji 1.0 ##
+*	Prva verzija.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=rsy
 
-[2]: https://www.emule-project.net
+[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+[3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

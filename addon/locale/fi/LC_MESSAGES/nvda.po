@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: eMule\n"
+"Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2018-09-28 07:46+0200\n"
+"POT-Creation-Date: 2016-09-02 23:32+1000\n"
+"PO-Revision-Date: 2018-07-07 14:16+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
-"Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,112 +18,54 @@ msgstr ""
 "X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. Translators: Message presented in input help mode.
-msgid "Reads the specified column for the current list item."
-msgstr "Lukee määrätyn sarakkeen nykyiselle listakohteelle."
-
-#. Translators: Message presented when the current column of the list item is copied to clipboard.
-#, python-format
-msgid "%s copied to clipboard"
-msgstr "%s kopioitu leikepöydälle"
-
-#. Translators: Message presented in input help mode.
-msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Kopioi valitun listakohteen viimeksi luetun sarakkeen leikepöydälle."
-
-#. Translators: Message presented in input help mode
-msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "Siirtää järjestelmäkohdistuksen ja hiiren päätyökaluriville."
-
-#. Translators: Message presented in input help mode.
-#. For instance: reads the search window, Statistics, IRC, etc.
-msgid "Reports the current window."
-msgstr "Lukee nykyisen ikkunan."
-
-#. Translators: Message presented in input help mode.
-msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Siirtää järjestelmäkohdistuksen Haku-ikkunan Nimi-kenttään."
-
-#. Translators: Message presented in input help mode.
+#. Translators: the label of a message box dialog.
 msgid ""
-"Moves the system focus and mouse to the search parameters list or Edit field "
-"for each option, in the Search window."
+"You have installed the ReportSymbols add-on, probably an old and "
+"incompatible version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Siirtää järjestelmäkohdistuksen ja hiiren Haku-ikkunassa hakuparametrien "
-"listaan tai jokaisen vaihtoehdon muokkauskenttään."
+"Asennettuna on vanha ReportSymbols-lisäosa, joka ei ole yhteensopiva tämän "
+"version kanssa. Haluatko poistaa vanhan version?"
 
-#. Translators: Message presented in input help mode.
-msgid ""
-"Moves the system focus to the first list in the current window. For example "
-"the results list in the Search window, downloads in Transfer, etc."
-msgstr ""
-"Siirtää järjestelmäkohdistuksen nykyisen ikkunan ensimmäiseen listaan. "
-"Esimerkiksi Haku-ikkunan hakutulosten listaan, Siirrot-ikkunan Lataukset-"
-"listaan jne."
+#. Translators: the title of a message box dialog.
+msgid "Uninstall incompatible add-on"
+msgstr "Poista yhteensopimaton lisäosa"
 
-#. Translators: Message presented in input help mode.
-msgid ""
-"Moves the system focus to read-only edit boxes in the current window. For "
-"example the IRC received messages."
-msgstr ""
-"Siirtää järjestelmäkohdistuksen nykyisen ikkunan vain luku -"
-"muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin."
+#. Translators: label of a dialog.
+msgid "Report &printable symbols"
+msgstr "Puhu tu&lostuvat symbolit"
 
-#. Translators: Message presented in input help mode.
-msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "Siirtää navigointiobjektin ja hiiren nykyisen listan otsikoihin."
+#. Translators: label of a dialog.
+msgid "Report &spaces"
+msgstr "Puhu v&älilyönnit"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports first object of the Status Bar."
-msgstr "Lukee tilarivin ensimmäisen objektin."
+#. Translators: label of a dialog.
+msgid "&Report carriage returns"
+msgstr "Puhu r&ivinvaihdot"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports second object of the Status Bar."
-msgstr "Lukee tilarivin toisen objektin."
+#. Translators: label of a dialog.
+msgid "Repor&t other blank characters"
+msgstr "Puhu &muut tyhjämerkit"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports third object of the Status Bar."
-msgstr "Lukee tilarivin kolmannen objektin."
-
-#. Translators: Message presented in input help mode.
-msgid "Reports fourth object of the Status Bar."
-msgstr "Lukee tilarivin neljännen objektin."
+#. Translators: message presented in input mode.
+msgid "Shows the Report Symbols settings."
+msgstr "Näyttää Puhu symbolit -lisäosan asetukset."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "eMule"
-msgstr "eMule"
+msgid "Report Symbols"
+msgstr "Puhu symbolit"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
-"Improves eMule's accessibility with NVDA.\n"
-"eMule is a P2P program to search and share files.\n"
-"You can get more information about eMule at\n"
-"http://www.emule-project.net"
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
-"Parantaa eMulen saavutettavuutta NVDA:n kanssa.\n"
-"eMule on P2P-asiakasohjelma tiedostojen etsimiseen ja jakamiseen.\n"
-"Saat lisätietoja osoitteesta\n"
-"http://www.emule-project.net"
+"Mahdollistaa kirjoitettujen symbolien (ei-aakkosnumeeristen ja "
+"tyhjämerkkien) kuulemisen, vaikka merkkien puhuminen on poistettu käytöstä."
 
-#~ msgid "text \"%s\" not found"
-#~ msgstr "Tekstiä \"%s\" ei löydy"
+#~ msgid "Report Symbols settings"
+#~ msgstr "Symbolien puhumisen asetukset"
 
-#~ msgid "Find Error"
-#~ msgstr "Hakuvirhe"
-
-#~ msgid "Search for:"
-#~ msgstr "Etsittävä:"
-
-#~ msgid "eMule search"
-#~ msgstr "eMulen haku"
-
-#~ msgid "Opens the find dialog when in read only edit boxes."
-#~ msgstr "Avaa etsintävalintaikkunan vain luku -muokkausruuduissa oltaessa."
-
-#~ msgid "Find next occurence."
-#~ msgstr "Etsi seuraava esiintymä."
-
-#~ msgid "Find previous occurrence."
-#~ msgstr "Etsi edellinen esiintymä."
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "Puhu s&ymbolit..."
