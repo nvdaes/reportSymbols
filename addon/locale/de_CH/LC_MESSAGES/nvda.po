@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reportSymbols 1.1\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-10-07 18:01+1000\n"
 "PO-Revision-Date: 2018-06-21 21:48+0200\n"
 "Last-Translator: Robert Hänggi <aarjay.robert@gmail.com>\n"

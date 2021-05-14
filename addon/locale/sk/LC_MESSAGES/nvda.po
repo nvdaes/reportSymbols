@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reportSymbols 4.4\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-23 18:05+1000\n"
 "PO-Revision-Date: 2020-01-13 14:41+0100\n"
 "Language: sk\n"
