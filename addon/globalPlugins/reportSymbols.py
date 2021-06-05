@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # reportSymbols: Plugin to listen the typed symbols (non alphanumeric characters)
-#Copyright (C) 2013-2018 Noelia Ruiz Martínez
+# Copyright (C) 2013-2018 Noelia Ruiz Martínez
 # Released under GPL 2
 
 import addonHandler
@@ -16,7 +16,8 @@ from scriptHandler import script
 
 addonHandler.initTranslation()
 
-ADDON_PANEL_TITLE = addonHandler.getCodeAddon().manifest["summary"]
+ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
+ADDON_PANEL_TITLE = ADDON_SUMMARY
 
 confspec = {
 	"speakTypedSymbols": "boolean(default=False)",
@@ -25,6 +26,7 @@ confspec = {
 	"speakTab": "boolean(default=False)",
 }
 config.conf.spec["reportSymbols"] = confspec
+
 
 class AddonSettingsPanel(SettingsPanel):
 
@@ -57,6 +59,7 @@ class AddonSettingsPanel(SettingsPanel):
 		config.conf["reportSymbols"]["speakEnter"] = self.reportEnterCheckBox.GetValue()
 		config.conf["reportSymbols"]["speakTab"] = self.reportTabCheckBox.GetValue()
 
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self):
@@ -70,15 +73,27 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		nextHandler()
 		if api.isTypingProtected():
 			return
-		if not config.conf["keyboard"]["speakTypedCharacters"] and config.conf["keyboard"]["speechInterruptForCharacters"]:
-			if config.conf["reportSymbols"]["speakTypedSymbols"] and not ch.isalnum() and not ch.isspace() and ord(ch)>=32:
+		if (
+			not config.conf["keyboard"]["speakTypedCharacters"]
+			and config.conf["keyboard"]["speechInterruptForCharacters"]
+		):
+			if (
+				config.conf["reportSymbols"]["speakTypedSymbols"]
+				and not ch.isalnum()
+				and not ch.isspace()
+				and ord(ch) >= 32
+			):
 				speech.speakSpelling(ch)
 			elif config.conf["reportSymbols"]["speakTypedSpaces"] and ord(ch) == 32:
 				speech.speakSpelling(ch)
 		if not config.conf["keyboard"]["speakCommandKeys"]:
-			if config.conf["reportSymbols"]["speakEnter"] and config.conf["keyboard"]["speechInterruptForEnter"] and ord(ch) == 13:
+			if (
+				config.conf["reportSymbols"]["speakEnter"]
+				and config.conf["keyboard"]["speechInterruptForEnter"]
+				and ord(ch) == 13
+			):
 				speech.speakSpelling(ch)
-			elif config.conf["reportSymbols"]["speakTab"] and ch.isspace() and ord (ch) not in (13, 32):
+			elif config.conf["reportSymbols"]["speakTab"] and ch.isspace() and ord(ch) not in (13, 32):
 				speech.speakSpelling(ch)
 
 	def onSettings(self, evt):
@@ -87,7 +102,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		category=SCRCAT_CONFIG,
 		# Translators: message presented in input mode.
-		description=_("Shows the Report Symbols settings.")
+		description=_(f"Shows the {ADDON_SUMMARY} settings.")
 	)
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettings, None)
