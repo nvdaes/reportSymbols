@@ -1,4 +1,3 @@
-## Changes for 5.2 ##
-
+## Changes for 6.0 ##
+* Compatible with NVDA 2021.1.
 * Updated translations.
-
