@@ -17,19 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.8\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Sie haben möglicherweise eine veraltete und inkompatible Version der "
-"Erweiterung Symbole ansagen installiert. Möchten Sie sie jetzt "
-"deinstallieren?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Inkompatible Erweiterung deinstallieren"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "&Druckbare Symbole ansagen"
@@ -47,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "&Weitere Leerzeichen ansagen"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "Zeigt die Einstellungen der anzusagenden Symbole an."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -63,6 +51,18 @@ msgid ""
 msgstr ""
 "Ermöglicht das Anhören der getippten Symbole (keine alphanumerische Zeichen "
 "oder Leerzeichen), auch wenn das Sprechen von Zeichen ausgeschaltet ist."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Sie haben möglicherweise eine veraltete und inkompatible Version der "
+#~ "Erweiterung Symbole ansagen installiert. Möchten Sie sie jetzt "
+#~ "deinstallieren?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Inkompatible Erweiterung deinstallieren"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Symbole ansagen-Einstellungen"

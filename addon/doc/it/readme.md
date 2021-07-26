@@ -20,6 +20,8 @@ Nota: è possibile assegnare un comando rapido per aprire questa finestra
 tramite le impostazioni Gesti e tasti di immissione, nella categoria
 Configurazione.
 
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
 ## Novità nella versione 5.0 ##
 *	Richiede NVDA 2019.3 o superiore.

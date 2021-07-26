@@ -18,6 +18,8 @@ mesmo autor. deve desinstalá-lo para usar esta versão.
 Nota: O comando para abrir esta caixa de diálogo pode ser atribuído no menu
 NVDA, Preferências, Definir comandos, na categoria Configuração.
 
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
 ## Alterações para 5.0: ##
 *	Requer NVDA 2019.3 ou posterior.

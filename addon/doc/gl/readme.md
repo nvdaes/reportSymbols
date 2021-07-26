@@ -18,6 +18,8 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
+## Cambios para 6.0
+* compatible con NVDA 2021.1.
 
 ## Cambios para 5.0 ##
 *	Require NVDA 2019.3 ou posterior.

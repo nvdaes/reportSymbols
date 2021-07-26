@@ -9,25 +9,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2018-11-23 18:05+1000\n"
 "PO-Revision-Date: 2020-01-13 14:41+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: \n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.6.11\n"
-
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Máte nainštalovanú staršiu nekompatibilnú verziu tohto doplnku. Chcete ju "
-"odinštalovať?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Odinštalácia nekonpatibilného doplnku"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -46,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Oznamovať ostatné &symboly"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "Zobrazí nastavenia pre čítanie napísaných symbolov"
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -62,3 +51,14 @@ msgid ""
 msgstr ""
 "Umožňuje oznamovať napísané znaky (medzeri a prázdne riadky) aj v prípade, "
 "ak je vypnuté čítanie napísaných znakov."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Máte nainštalovanú staršiu nekompatibilnú verziu tohto doplnku. Chcete ju "
+#~ "odinštalovať?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Odinštalácia nekonpatibilného doplnku"

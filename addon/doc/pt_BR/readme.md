@@ -4,7 +4,7 @@
 *	Baixe a [versão estável][1]
 *	Baixe a [versão em desenvolvimento][2]
 
-Esse complemento permite ouvir os símbolos digitados (caracteres não
+Este complemento permite ouvir os símbolos digitados (caracteres não
 alfanuméricos ou invisíveis/em branco), mesmo quando a fala de caracteres
 digitados está desativada no NVDA.
 
@@ -19,6 +19,8 @@ Nota: Um comando (gesto) para abrir esta caixa de diálogo pode ser atribuído
 no menu NVDA, submenu Preferências, diálogo Definir comandos (Gestos de
 entrada), categoria Configuração.
 
+## Alterações para 6.0
+* Compatível com NVDA 2021.1.
 
 ## Alterações para 5.0 ##
 *	Requer NVDA 2019.3 ou posterior.

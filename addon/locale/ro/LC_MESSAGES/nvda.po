@@ -17,18 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Ai instalat o versiune veche ReportSymbols, și, probabil incompatibilă cu "
-"versiunea actuală. Dorești să dezinstalezi versiunea veche?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Dezinstalează suplimentul incompatibil"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "Raportează simbolurile &tipăribile"
@@ -46,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Raporteaz&ă alte caractere goale"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "Arată dialogul de setări Report Symbols."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -62,6 +51,17 @@ msgid ""
 msgstr ""
 "Îți permite să asculți simbolurile scrise (caracterele non-alphanumerice), "
 "chiar dacă citirea caracterelor este dezactivată."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Ai instalat o versiune veche ReportSymbols, și, probabil incompatibilă cu "
+#~ "versiunea actuală. Dorești să dezinstalezi versiunea veche?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Dezinstalează suplimentul incompatibil"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Setări ReportSymbols"

@@ -20,18 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Vjerojatno je instalirana stara i nekompatibilna verzija dodatka „Javi "
-"znakove”. Želiš li ukloniti staru verziju?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Ukloni nekompatibilni dodatak"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "Javi is&pisive simbole"
@@ -49,7 +37,8 @@ msgid "Repor&t other blank characters"
 msgstr "Javi os&tale prazne znakove"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "Prikazuje postavke dodatka „Javi znakove”."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -65,3 +54,14 @@ msgid ""
 msgstr ""
 "Omogućuje slušanje utipkanih znakova (nealfanumeričkih znakova ili praznih "
 "znakova), čak i kad je izgovaranje utipkanih znakova isključeno."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Vjerojatno je instalirana stara i nekompatibilna verzija dodatka „Javi "
+#~ "znakove”. Želiš li ukloniti staru verziju?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Ukloni nekompatibilni dodatak"

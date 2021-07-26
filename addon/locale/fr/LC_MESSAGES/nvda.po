@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: reportSymbols 4.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2018-06-15 19:29+0200\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"PO-Revision-Date: 2021-06-25 22:07+0200\n"
+"Last-Translator: Cyrille Bougot <cyrille.bougot2@laposte.net>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -16,19 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Vous avez probablement installé une version ancienne du module "
-"complémentaire ReportSymbols, et elle est incompatible avec la présente. "
-"Voulez-vous désinstaller l'ancienne version ?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Désinstaller le module complémentaire incompatible"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -40,15 +27,16 @@ msgstr "Annoncer les &espaces"
 
 #. Translators: label of a dialog.
 msgid "&Report carriage returns"
-msgstr "&Annoncer les retours de chariot"
+msgstr "&Annoncer les retours chariot"
 
 #. Translators: label of a dialog.
 msgid "Repor&t other blank characters"
-msgstr "Annoncer d'au&tres caractères en blanc"
+msgstr "Annoncer les au&tres caractères blancs"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
-msgstr "Afficher les Paramètres Report Symbols."
+#, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
+msgstr "Afficher les Paramètres de {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -61,8 +49,20 @@ msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Permet d'écouter les symboles écrit (caractères non alphanumériques ou "
-"blancs), même si la verbalisation des caractères écrit est désactivé."
+"Permet d'entendre les symboles écrits (caractères non alphanumériques ou "
+"blancs), même si la verbalisation des caractères écrits est désactivée."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Vous avez probablement installé une version ancienne de l'extension "
+#~ "ReportSymbols, et elle est incompatible avec la présente. Voulez-vous "
+#~ "désinstaller l'ancienne version ?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Désinstaller l'extension incompatible"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Paramètres Report Symbols"

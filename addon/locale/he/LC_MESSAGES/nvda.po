@@ -17,18 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"התקנת את התוסף 'דוח סימניות', כנראה גרסה ישנה ובלתי תואמת עם גרסה זו. האם "
-"ברצונך להסיר את ההתקנה של הגרסה הישנה?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "הסר התקנה שאינה תואמת"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "%דיווח סמלים מוצגים"
@@ -46,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "%הקראת תווים ריקים נוספים"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "הצג את תיבת הדו-שיח הגדרות דיווח סמלים."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -62,6 +51,17 @@ msgid ""
 msgstr ""
 "מאפשר להאזין לסמלים שהוקלדו (לא תווים אלפאנומריים), גם כאשר הדיבור על תווים "
 "כבוי."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "התקנת את התוסף 'דוח סימניות', כנראה גרסה ישנה ובלתי תואמת עם גרסה זו. האם "
+#~ "ברצונך להסיר את ההתקנה של הגרסה הישנה?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "הסר התקנה שאינה תואמת"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "דווח על הגדרות סמלים"

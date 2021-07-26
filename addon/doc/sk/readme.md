@@ -16,6 +16,8 @@ verziu doplnku, nahraďte ju aktuálnou verziou.
 Ak si chcete nastaviť skratku na rýchly prístup k nastaveniam doplnku,
 môžete tak urobiť v dialógu klávesové skratky, vetva možnosti.
 
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
 ## Verzia 5.0 ##
 *	Vyžaduje NVDA od verzie 2019.3.

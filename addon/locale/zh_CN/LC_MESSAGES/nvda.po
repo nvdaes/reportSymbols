@@ -18,16 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr "您已经安装了一个旧的或者不匹配的老版本reportSymbols，您希望卸载它吗？"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "卸载不匹配的 add-on"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "&朗读可打印的符号"
@@ -45,7 +35,8 @@ msgid "Repor&t other blank characters"
 msgstr "&朗读其他空白字符"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "显示朗读符号设置对话框."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -61,6 +52,16 @@ msgid ""
 msgstr ""
 "此插件允许听取输入的符号包括（非字母数字的字符），即使关闭了NVDA的输入字符朗"
 "读."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "您已经安装了一个旧的或者不匹配的老版本reportSymbols，您希望卸载它吗？"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "卸载不匹配的 add-on"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "朗读符号设置"
