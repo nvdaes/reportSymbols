@@ -17,18 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Nameščeno imate  SporočajSimbole verjetno starejšo in nezdružljivo različico "
-"dodatka s tem novim. Želite odstraniti staro različico tega dodatka?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Odstrani nezdružljiv dodatek"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "Sporočaj &tiskarske simbole"
@@ -46,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Sporočaj druge prazne &znake"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "Prikaže nastavitve Sporočanja Simbolov."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -62,3 +51,15 @@ msgid ""
 msgstr ""
 "Dovoljuje poslušati natipkane simbole (nealfanumerične ali prazne znake) "
 "tudi, ko je pripovedovanje znakov izključeno."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Nameščeno imate  SporočajSimbole verjetno starejšo in nezdružljivo "
+#~ "različico dodatka s tem novim. Želite odstraniti staro različico tega "
+#~ "dodatka?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Odstrani nezdružljiv dodatek"

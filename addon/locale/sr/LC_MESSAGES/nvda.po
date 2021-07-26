@@ -8,26 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 2.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2017-03-10 18:01+1000\n"
-"PO-Revision-Date: 2018-06-16 16:39+0100\n"
+"PO-Revision-Date: 2021-07-22 17:13+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Serbian <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
-
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Instalirali ste report simbols dodatak, verovatno staru i nekompatibilnu "
-"verziju zajedno sa ovim dodatkom. Da li želite da uklonite staru verziju?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Ukloni nekompatibilan dodatak"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -46,13 +34,14 @@ msgid "Repor&t other blank characters"
 msgstr "&Prijavi druge prazne znakove"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
-msgstr "Prikazuje podešavanja dodatka report simbols"
+#, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
+msgstr "Prikazuje podešavanja dodatka {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Report Symbols"
-msgstr "Report Symbols"
+msgstr "Prijavljivanje simbola"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -62,6 +51,17 @@ msgid ""
 msgstr ""
 "Dozvoljava slušanje ukucanih simbola(znakovi koji nisu alfanumerički), čak i "
 "kada je izgovor ukucanih znakova isključen."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Instalirali ste report simbols dodatak, verovatno staru i nekompatibilnu "
+#~ "verziju zajedno sa ovim dodatkom. Da li želite da uklonite staru verziju?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Ukloni nekompatibilan dodatak"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Report simbols podešavanja"

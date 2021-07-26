@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-10-07 18:01+1000\n"
-"PO-Revision-Date: 2021-01-12 15:57+0330\n"
+"PO-Revision-Date: 2021-07-17 21:13+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -34,8 +34,9 @@ msgid "Repor&t other blank characters"
 msgstr "اعلامِ دیگر نویسه‌های &خالی"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
-msgstr "تنظیماتِ اعلامِ نمادها را نشان میدهد."
+#, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
+msgstr "تنظیماتِ {ADDON_SUMMARY} را نشان میدهد."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

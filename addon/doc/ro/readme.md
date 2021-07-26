@@ -19,6 +19,8 @@ Notă: Un gest pentru deschiderea acestui dialog poate fi atribuit din meniul
 NVDA, submeniul preferințe, dialogul gesturilor de intrare, secțiunea
 Configurare.
 
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
 ## Changes for 5.0 ##
 *	Requires NVDA 2019.3 or later.

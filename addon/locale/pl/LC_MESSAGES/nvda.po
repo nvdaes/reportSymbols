@@ -17,19 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Dodatek Reportsymbols znajduje się już na tym komputerze. Zainstalowana "
-"wersja może być nieaktualna i niezgodna z najnowszą wersją dodatku. Czy "
-"chcesz ją odinstalować?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Odinstaluj niezgodną wersję dodatku"
-
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
 msgstr "Wymawiaj &symbole drukowalne"
@@ -47,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Wymawia&j inne puste znaki"
 
 #. Translators: message presented in input mode.
-msgid "Shows the Report Symbols settings."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
 msgstr "Otwiera ustawienia Report Symbols."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -63,3 +51,15 @@ msgid ""
 msgstr ""
 "Wymawia wpisywane znaki (niealfanumeryczne lub puste), nawet wtedy, kiedy "
 "echo znaków jest wyłączone."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Dodatek Reportsymbols znajduje się już na tym komputerze. Zainstalowana "
+#~ "wersja może być nieaktualna i niezgodna z najnowszą wersją dodatku. Czy "
+#~ "chcesz ją odinstalować?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Odinstaluj niezgodną wersję dodatku"
