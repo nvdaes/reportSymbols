@@ -13,6 +13,8 @@ It's based on the old ReportSymbols add-on, developed by the same author. You sh
 
 Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
 
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
 ## Changes for 5.0 ##
 *	Requires NVDA 2019.3 or later.
