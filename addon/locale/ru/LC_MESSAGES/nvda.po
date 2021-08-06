@@ -8,26 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2017-06-30 20:59+0400\n"
+"PO-Revision-Date: 2021-08-03 15:54+0200\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
-
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the ReportSymbols add-on, probably an old and "
-"incompatible version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Кажется, вы установили несовместимую версию дополнения ReportSymbols. Хотите "
-"удалить его?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Удалить несовместимое дополнение"
+"X-Generator: Poedit 3.0\n"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -46,9 +34,9 @@ msgid "Repor&t other blank characters"
 msgstr "Озвучива&ть другие пустые символы"
 
 #. Translators: message presented in input mode.
-#, fuzzy
-msgid "Shows the Report Symbols settings."
-msgstr "Отображает диалог настроек дополнения Report Symbols."
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
+msgstr "Показывает параметры дополнения report symbols."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -57,13 +45,23 @@ msgstr "Report Symbols"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"Позволяет слышать набираемые не буквенно-цифровые символы, даже если "
-"произношение символов выключено."
+"Позволяет прослушивать набранные символы (не буквенно-цифровые или пустые "
+"символы), даже если произношение символов отключено."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Кажется, вы установили несовместимую версию дополнения ReportSymbols. "
+#~ "Хотите удалить его?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Удалить несовместимое дополнение"
 
 #~ msgid "Report Symbols settings"
 #~ msgstr "Настройки Report Symbols"
