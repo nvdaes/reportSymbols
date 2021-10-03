@@ -1,2 +1,2 @@
-## Changes for 6.2 ##
+## Changes ##
 * Updated translations.
