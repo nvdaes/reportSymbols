@@ -1,8 +1,8 @@
 # Report Symbols #
 *	Autrice: Noelia Ruiz Martínez.
 *	Compatibilità con NVDA: 2019.3 o superiore.
-*	Scarica [versione stabile][1]
-*	Scarica [versione in sviluppo][2]
+*	Scarica la [versione stabile][1]
+*	Scarica la [versione in sviluppo][2]
 
 Questo componente aggiuntivo consente di leggere i simboli digitati (non i
 caratteri alfanumerici o gli spazi), anche se la lettura dei caratteri
@@ -20,8 +20,8 @@ Nota: è possibile assegnare un comando rapido per aprire questa finestra
 tramite le impostazioni Gesti e tasti di immissione, nella categoria
 Configurazione.
 
-## Changes for 6.0
-* Compatible with NVDA 2021.1.
+## Novità nella versione 6.0
+* Compatibile con NVDA 2021.1.
 
 ## Novità nella versione 5.0 ##
 *	Richiede NVDA 2019.3 o superiore.
