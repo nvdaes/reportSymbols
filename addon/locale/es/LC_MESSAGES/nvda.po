@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2018-06-26 17:58+0100\n"
+"PO-Revision-Date: 2022-01-22 21:19+0100\n"
 "Last-Translator: Juan C. BuÃ±o <oprisniki@gmail.com>\n"
 "Language-Team: NVDA add-ons Spanish translation team <Oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -34,9 +34,9 @@ msgid "Repor&t other blank characters"
 msgstr "Anunciar otros caracteres en blanco"
 
 #. Translators: message presented in input mode.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Shows the {ADDON_SUMMARY} settings."
-msgstr "muestra la configuración de Report Symbols."
+msgstr "Muestra las opciones de {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -51,20 +51,3 @@ msgid ""
 msgstr ""
 "Permite escuchar los símbolos tecleados (caracteres no alfanuméricos o en "
 "blanco), incluso cuando la verbalización de caracteres esté desactivada."
-
-#~ msgid ""
-#~ "You have installed the ReportSymbols add-on, probably an old and "
-#~ "incompatible version with this one. Do you want to uninstall the old "
-#~ "version?"
-#~ msgstr ""
-#~ "Has instalado el complemento ReportSymbols, probablemente una versión "
-#~ "antigua e incompatible con este. ¿Quieres desinstalar la versión antigua?"
-
-#~ msgid "Uninstall incompatible add-on"
-#~ msgstr "Desinstalar complemento incompatible"
-
-#~ msgid "Report Symbols settings"
-#~ msgstr "Opciones de Report Symbols"
-
-#~ msgid "Report &Symbols settings..."
-#~ msgstr "Opciones de Report &Symbols..."
