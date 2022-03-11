@@ -1,6 +1,6 @@
 # Report Symbols #
 *	Auteur : Noelia Ruiz Martínez.
-*	NVDA compatibility: 2019.3 or later.
+*	Compatibilité NVDA : 2019.3 ou version ultérieure.
 *	Télécharger [version stable][1]
 *	Télécharger [version de développement][2]
 
@@ -20,11 +20,11 @@ Note : Un geste pour ouvrir cette boîte de dialogue peut être assigné en
 allant dans le menu NVDA, sous-menu Préférences, dans le dialogue Gestes de
 commandes, dans la catégorie Configuration.
 
-## Changes for 6.0
-* Compatible with NVDA 2021.1.
+## Changements pour la version 6.0
+* Compatible avec NVDA 2021.1.
 
-## Changes for 5.0 ##
-*	Requires NVDA 2019.3 or later.
+## Changements pour la version 5.0 ##
+*	Nécessite NVDA 2019.3 ou ultérieur.
 
 ## Changements pour la version 4.0 ##
 * Les paramètres du module complémentaire sont affichés dans la catégorie
