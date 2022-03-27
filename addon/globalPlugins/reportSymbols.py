@@ -1,14 +1,16 @@
 # -*- coding: UTF-8 -*-
+
 # reportSymbols: Plugin to listen the typed symbols (non alphanumeric characters)
-# Copyright (C) 2013-2018 Noelia Ruiz Martínez
+# Copyright (C) 2013-2022 Noelia Ruiz Martínez
 # Released under GPL 2
+
+import wx
 
 import addonHandler
 import globalPluginHandler
 import api
 import config
 import speech
-import wx
 import gui
 from gui import SettingsPanel, NVDASettingsDialog, guiHelper
 from globalCommands import SCRCAT_CONFIG
