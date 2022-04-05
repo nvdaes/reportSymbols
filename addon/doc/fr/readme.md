@@ -20,6 +20,9 @@ Note : Un geste pour ouvrir cette boîte de dialogue peut être assigné en
 allant dans le menu NVDA, sous-menu Préférences, dans le dialogue Gestes de
 commandes, dans la catégorie Configuration.
 
+## Changes for 7.0
+* Compatible with NVDA 2022.1.
+
 ## Changements pour la version 6.0
 * Compatible avec NVDA 2021.1.
 
