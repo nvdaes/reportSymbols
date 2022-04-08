@@ -19,8 +19,8 @@ Huom: Tälle valintaikkunalle voidaan määrittää syötekomento menemällä
 NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syötekomennot-vaihtoehto ja
 valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
-## Changes for 7.0
-* Compatible with NVDA 2022.1.
+## Muutokset versiossa 7.0
+* Yhteensopiva NVDA 2022.1:n kanssa.
 
 ## Muutokset versiossa 6.0
 * Yhteensopiva NVDA 2021.1:n kanssa.
