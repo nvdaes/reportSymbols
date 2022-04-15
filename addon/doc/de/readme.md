@@ -21,8 +21,8 @@ Hinweis: Eine Tastenkürzel zum Öffnen dieses Dialogs kann über das
 NVDA-Menü, Untermenü Einstellungen, Dialog Eingaben, Kategorie Konfiguration
 zugewiesen werden.
 
-## Changes for 7.0
-* Compatible with NVDA 2022.1.
+## Änderungen in 7.0
+* Kompatibel mit NVDA 2022.1.
 
 ## Änderungen in 6.0
 * Kompatibel mit NVDA 2021.1.
