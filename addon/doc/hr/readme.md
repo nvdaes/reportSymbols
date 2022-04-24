@@ -20,6 +20,9 @@ Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
 koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
 kategorija Konfiguracija.
 
+## Changes for 7.0
+* Compatible with NVDA 2022.1.
+
 ## Promjene u verziji 6.0
 * Kompatibilno s NVDA 2021.1.
 
