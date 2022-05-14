@@ -1,8 +1,7 @@
 # Report Symbols #
 *	Author: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2019.3 or later.
-*	Download [stable version][1]
-*	Download [development version][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2029.3 and beyond)
 
 This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.
 
