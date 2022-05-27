@@ -1,8 +1,8 @@
 # Report Symbols (Промовляння символів) #
+
 *	Автор: Noelia Ruiz Martínez.
-*	Сумісність з NVDA: 2019.3 або новішими.
-*	Завантажити [стабільну версію][1]
-*	Завантажити [версію в розробці][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Цей додаток дозволяє прослуховувати введені символи (не буквенно-цифрові чи
 порожні символи), навіть якщо в NVDA вимкнено озвучення введених символів.

@@ -1,8 +1,8 @@
 # Report Symbols #
+
 *	Автор: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2019.3 or later.
-*	Загрузить [стабильную версию][1]
-*	Загрузить [разрабатываемую версию][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Это дополнение позволяет слышать набираемые символы (не буквенно-цифровые
 или пустые), даже если произношение символов выключено в NVDA.

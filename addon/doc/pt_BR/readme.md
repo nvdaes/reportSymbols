@@ -1,8 +1,8 @@
 # Informar Símbolos (Report Symbols) #
+
 *	Autor: Noelia Ruiz Martínez.
-*	Compatibilidade com NVDA: 2019.3 ou posterior.
-*	Baixe a [versão estável][1]
-*	Baixe a [versão em desenvolvimento][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Este complemento permite ouvir os símbolos digitados (caracteres não
 alfanuméricos ou invisíveis/em branco), mesmo quando a fala de caracteres

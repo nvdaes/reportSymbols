@@ -1,8 +1,8 @@
 # Report Symbols #
+
 *	Auteur : Noelia Ruiz Martínez.
-*	Compatibilité NVDA : 2019.3 ou version ultérieure.
-*	Télécharger [version stable][1]
-*	Télécharger [version de développement][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Cette extension permet d'écouter les symboles écrit (caractères non
 alphanumériques ou caractères en blanc), même si la verbalisation des

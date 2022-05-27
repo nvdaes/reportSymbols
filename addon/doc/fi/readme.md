@@ -1,8 +1,8 @@
 # Puhu symbolit #
+
 *	Tekijä: Noelia Ruiz Martínez.
-*	Yhteensopivuus: NVDA 2019.3 tai uudempi
-*	Lataa [vakaa versio][1]
-*	Lataa [kehitysversio][2]
+*	Lataa [vakaa versio][1] (yhteensopiva NVDA 2019.3:n ja uudempien kanssa)
+*	Lataa [kehitysversio][2] (yhteensopiva NVDA 2019.3:n ja uudempien kanssa)
 
 Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit
 (ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien
