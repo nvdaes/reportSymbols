@@ -1,8 +1,8 @@
 # Sembolleri bildir #
+
 *	Yazar: Noelia Ruiz Martínez.
-*	NVDA uyumluluğu: 2019.3 veya üstü.
-*	[Kararlı sürümü][1] indir
-*	[geliştirme sürümünü][2] indir
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Bu eklenti, NVDA'da yazılan karakterlerin konuşulması kapatıldığında bile,
 yazılan sembollerin (alfanumerik olmayan veya boş karakterler)
