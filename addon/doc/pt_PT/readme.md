@@ -1,8 +1,8 @@
 # Anúncio de Símbolos #
+
 *	Autor: Noelia Ruiz Martínez.
-*	Compatibilidade: NVDA 2019.3 e postrior
-*	Descarregar [versão estável][1]
-*	Descarregar [versão de desenvolvimento][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Este extra permite ouvir os símbolos digitados (caracteres não alfanuméricos
 ou invisíveis), mesmo quando  a opção \"Anunciar caracteres\" está

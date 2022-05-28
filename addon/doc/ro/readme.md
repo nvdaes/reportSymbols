@@ -1,8 +1,8 @@
 # Report Symbols #
+
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA compatibility: 2019.3 or later.
-*	Descărcați [versiunea stabilă][1]
-*	Descărcați [versiunea în dezvoltare][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Acest supliment permite ascultarea simbolurilor tastate (caractere
 non-alfanumerice sau goale), atunci când vorbirea caracterelor tastate este

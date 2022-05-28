@@ -1,8 +1,8 @@
 # Javi znakove (Report Symbols) #
+
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA kompatibilnost: 2019.3 i novija.
-*	Preuzmi [stabilnu verziju][1]
-*	Preuzmi [razvojnu verziju][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
 ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno

@@ -1,8 +1,9 @@
 # Symbole ansagen #
+
 *	Autor: Noelia Ruiz Martínez.
-*	NVDA-Kompatibilität: 2019.3 oder höher.
-*	[Stabile Version herunterladen][1]
-*	[Entwicklerversion herunterladen][2]
+*	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2019.3 und neuer)
+*	[Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2019.3 und
+  neuer)
 
 Diese Erweiterung ermöglicht die Ansage der Symbole beim Tippen
 (z.B. Satzzeichen). Alphanumerische und leere Zeichen werden nicht

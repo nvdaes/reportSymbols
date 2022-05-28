@@ -1,8 +1,8 @@
 # Report Symbols #
+
 *	Autor: Noelia Ruiz Martínez.
-*	Compatibilidade con NVDA: 2019.3 ou posterior.
-*	Descargar [versión estable][1]
-*	Descargar [versión de desenvolvemento][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
 alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea

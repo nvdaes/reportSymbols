@@ -1,8 +1,8 @@
 # Čítať napísané symboly #
+
 *	Autor: Noelia Ruiz Martínez.
-*	Funguje s NVDA od verzie 2019.3.
-*	Stiahnuť [stabilnú verziu][1]
-*	Stiahnuť [vývojovú verziu][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Oznamuje napísané symboly (nealfanumerické alebo aj prázdne znaky) a to aj v
 prípade, ak je vypnuté čítanie napísaných znakov.

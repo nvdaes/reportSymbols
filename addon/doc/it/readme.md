@@ -1,8 +1,8 @@
 # Report Symbols #
+
 *	Autrice: Noelia Ruiz Martínez.
-*	Compatibilità con NVDA: 2019.3 o superiore.
-*	Scarica la [versione stabile][1]
-*	Scarica la [versione in sviluppo][2]
+*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Questo componente aggiuntivo consente di leggere i simboli digitati (non i
 caratteri alfanumerici o gli spazi), anche se la lettura dei caratteri
