@@ -104,7 +104,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		category=SCRCAT_CONFIG,
 		# Translators: message presented in input mode.
-		description=_(f"Shows the {ADDON_SUMMARY} settings.")
+		description=_("Shows the %s settings.") % ADDON_SUMMARY
 	)
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettings, None)
