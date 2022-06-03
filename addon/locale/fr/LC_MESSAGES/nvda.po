@@ -34,8 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Annoncer les au&tres caractères blancs"
 
 #. Translators: message presented in input mode.
-#, python-brace-format
-msgid "Shows the {ADDON_SUMMARY} settings."
+#, fuzzy, python-format
+msgid "Shows the %s settings."
 msgstr "Afficher les Paramètres de {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.

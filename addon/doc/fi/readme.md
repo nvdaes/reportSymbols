@@ -15,9 +15,9 @@ tulisi poistaa se tämän version käyttämiseksi.
 *	Puhu symbolit: Mahdollistaa kirjoitettujen symboleiden puhumisen asetusten
   määrittämisen.
 
-Huom: Tälle valintaikkunalle voidaan määrittää syötekomento menemällä
-NVDA-valikkoon, avaamalla Asetukset-alavalikosta Syötekomennot-vaihtoehto ja
-valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
+Huom: Tälle valintaikkunalle voidaan määrittää näppäinkomento menemällä
+NVDA-valikkoon, avaamalla Asetukset-alivalikosta Näppäinkomennot-vaihtoehto
+ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
 ## Muutokset versiossa 7.0
 * Yhteensopiva NVDA 2022.1:n kanssa.

@@ -10,12 +10,12 @@ msgstr ""
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
 "PO-Revision-Date: 2021-06-11 21:54+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
+"Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0\n"
-"Language-Team: \n"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -34,8 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Докладвай други &празни знаци"
 
 #. Translators: message presented in input mode.
-#, python-brace-format
-msgid "Shows the {ADDON_SUMMARY} settings."
+#, fuzzy, python-format
+msgid "Shows the %s settings."
 msgstr "Показва настройките за {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.

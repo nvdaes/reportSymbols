@@ -34,7 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Sporočaj druge prazne &znake"
 
 #. Translators: message presented in input mode.
-msgid "Shows the {ADDON_SUMMARY} settings."
+#, fuzzy, python-format
+msgid "Shows the %s settings."
 msgstr "Prikaže {ADDON_SUMMARY} nastavitve."
 
 #. Add-on summary, usually the user visible name of the addon.
