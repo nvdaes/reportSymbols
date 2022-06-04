@@ -10,8 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
 "PO-Revision-Date: 2021-07-07 18:26+0200\n"
 "Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
-"Language-Team: NVDA add-ons galician translation team <Oprisniki@gmail."
-"com>\n"
+"Language-Team: NVDA add-ons galician translation team <Oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,8 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "Anunciar outros caracteres en branco"
 
 #. Translators: message presented in input mode.
-#, python-brace-format
-msgid "Shows the {ADDON_SUMMARY} settings."
+#, fuzzy, python-format
+msgid "Shows the %s settings."
 msgstr "Amosa a configuración de {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.

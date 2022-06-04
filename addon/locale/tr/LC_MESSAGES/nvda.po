@@ -9,12 +9,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2021-10-08 18:05+0000\n"
 "PO-Revision-Date: 2021-11-29 12:50+0300\n"
+"Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
+"Language-Team: \n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 3.0\n"
 
 #. Translators: label of a dialog.
@@ -34,8 +34,8 @@ msgid "Repor&t other blank characters"
 msgstr "&Diğer boşluk karakterlerini bildir"
 
 #. Translators: message presented in input mode.
-#, python-brace-format
-msgid "Shows the {ADDON_SUMMARY} settings."
+#, fuzzy, python-format
+msgid "Shows the %s settings."
 msgstr "{ADDON_SUMMARY} ayarlarını bildir."
 
 #. Add-on summary, usually the user visible name of the addon.
