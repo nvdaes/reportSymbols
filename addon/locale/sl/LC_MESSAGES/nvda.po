@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2021-12-15 08:46+0100\n"
+"PO-Revision-Date: 2022-06-14 16:17+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -34,9 +34,9 @@ msgid "Repor&t other blank characters"
 msgstr "Sporočaj druge prazne &znake"
 
 #. Translators: message presented in input mode.
-#, fuzzy, python-format
+#, python-format
 msgid "Shows the %s settings."
-msgstr "Prikaže {ADDON_SUMMARY} nastavitve."
+msgstr "Pokaže nastavitve %s."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
