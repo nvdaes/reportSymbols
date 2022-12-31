@@ -1,8 +1,9 @@
 # Report Symbols #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
-*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
+*	[descargar versión estable][1] (compatible con NVDA 2019.3 en diante)
+*	Descargar [versión de desenvolvemento][2] (compatible con NVDA 2019.3 en
+  diante)
 
 Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
 alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea
@@ -18,11 +19,11 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
-## Changes for 7.0
-* Compatible with NVDA 2022.1.
+## Cambios para 7.0
+* Compatible con NVDA 2022.1.
 
 ## Cambios para 6.0
-* compatible con NVDA 2021.1.
+* Compatible con NVDA 2021.1.
 
 ## Cambios para 5.0 ##
 *	Require NVDA 2019.3 ou posterior.
