@@ -2,7 +2,6 @@
 
 *	作者: Noelia Ruiz Martínez.
 *	下载 [稳定版][1]（兼容NVDA 2019.3及更高版本）
-*	下载 [开发板][2]（兼容NVDA 2019.3及更高版本）
 
 此插件允许听取输入的符号包括（非字母数字的字符），即使关闭了NVDA的输入字符朗读。
 
@@ -39,8 +38,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

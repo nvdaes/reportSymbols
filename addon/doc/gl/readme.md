@@ -2,8 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	[descargar versión estable][1] (compatible con NVDA 2019.3 en diante)
-*	Descargar [versión de desenvolvemento][2] (compatible con NVDA 2019.3 en
-  diante)
 
 Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
 alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea
@@ -49,8 +47,6 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

@@ -2,7 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
-*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Oznamuje napísané symboly (nealfanumerické alebo aj prázdne znaky) a to aj v
 prípade, ak je vypnuté čítanie napísaných znakov.
@@ -43,8 +42,6 @@ môžete tak urobiť v dialógu klávesové skratky, vetva možnosti.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

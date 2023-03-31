@@ -2,8 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	Descargar [versión estable][1] (compatible desde NVDA 2019.3 en adelante)
-*	Descargar [versión de desarrollo][2] (compatible desde NVDA 2019.3 en
-  adelante)
 
 Este complemento te permite escuchar los símbolos escritos (caracteres no
 alfanuméricos o en blanco), incluso cuando Verbalizar carácteres al escribir
@@ -49,8 +47,6 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

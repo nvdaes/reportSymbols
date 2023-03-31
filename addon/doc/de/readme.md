@@ -2,8 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2019.3 und neuer)
-*	[Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2019.3 und
-  neuer)
 
 Diese Erweiterung ermöglicht die Ansage der Symbole beim Tippen
 (z.B. Satzzeichen). Alphanumerische und leere Zeichen werden nicht
@@ -52,8 +50,6 @@ zugewiesen werden.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

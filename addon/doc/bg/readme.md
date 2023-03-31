@@ -3,8 +3,6 @@
 *	Автор: Noelia Ruiz Martínez.
 *	Изтегляне на [стабилна версия][1] (съвместима с NVDA 2019.3 и по-нови
   версии)
-*	Изтегляне на [тестова версия][2] (съвместима с NVDA 2019.3 и по-нови
-  версии)
 
 Тази добавка позволява да прослушвате въвежданите символи (не
 буквено-цифровите и празните знаци), дори когато опцията "Изговаряй
@@ -51,8 +49,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

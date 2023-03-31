@@ -2,7 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
-*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Este extra permite ouvir os símbolos digitados (caracteres não alfanuméricos
 ou invisíveis), mesmo quando  a opção \"Anunciar caracteres\" está
@@ -48,8 +47,6 @@ NVDA, Preferências, Definir comandos, na categoria Configuração.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o
