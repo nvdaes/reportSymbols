@@ -2,7 +2,6 @@
 
 *	Tekijä: Noelia Ruiz Martínez.
 *	Lataa [vakaa versio][1] (yhteensopiva NVDA 2019.3:n ja uudempien kanssa)
-*	Lataa [kehitysversio][2] (yhteensopiva NVDA 2019.3:n ja uudempien kanssa)
 
 Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit
 (ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien
@@ -49,8 +48,6 @@ ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

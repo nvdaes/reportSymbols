@@ -2,7 +2,6 @@
 
 *	Автор: Noelia Ruiz Martínez.
 *	Завантажити [стабільну версію][1] (сумісну з NVDA 2019.3 й пізнішими)
-*	Завантажити [версію в розробці][2] (сумісну з NVDA 2019.3 й пізнішими)
 
 Цей додаток дозволяє прослуховувати введені символи (не буквенно-цифрові чи
 порожні символи), навіть якщо в NVDA вимкнено озвучення введених символів.
@@ -46,8 +45,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

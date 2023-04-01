@@ -2,7 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2019.3 i novijom)
-*	Preuzmi [razvojnu verziju][2] (kompatibilna s NVDA 2019.3 i novijom)
 
 Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
 ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno
@@ -50,8 +49,6 @@ kategorija Konfiguracija.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

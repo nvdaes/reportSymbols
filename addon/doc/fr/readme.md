@@ -2,7 +2,6 @@
 
 *	Auteur : Noelia Ruiz Martínez.
 *	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
-*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 Cette extension permet d'écouter les symboles écrit (caractères non
 alphanumériques ou caractères en blanc), même si la verbalisation des
@@ -30,8 +29,8 @@ commandes, dans la catégorie Configuration.
 *	Nécessite NVDA 2019.3 ou ultérieur.
 
 ## Changements pour la version 4.0 ##
-* Les paramètres du module complémentaire sont affichés dans la catégorie
-  correspondante au dialogue Paramètres NVDA.
+* Les paramètres de l'extension sont affichés dans la catégorie
+  correspondante du dialogue Paramètres NVDA.
 * Nécessite NVDA 2018.2 ou ultérieur.
 * Si nécessaire, vous pouvez télécharger la [dernière version compatible
   avec NVDA 2017.3][3].
@@ -50,8 +49,6 @@ commandes, dans la catégorie Configuration.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

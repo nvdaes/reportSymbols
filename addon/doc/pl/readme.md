@@ -2,7 +2,6 @@
 
 *	Autor: Noelia Ruiz Martínez.
 *	Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2019.3 i nowszymi)
-*	Pobierz [wersja rozwojowa][2] (kompatybilna z NVDA 2019.3 i nowszymi)
 
 Ten dodatek pozwala na nasłuchiwanie wpisanych symboli (znaków
 niealfanumerycznych lub pustych), nawet gdy mówienie wpisanych znaków jest
@@ -49,8 +48,6 @@ Konfiguracja.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o

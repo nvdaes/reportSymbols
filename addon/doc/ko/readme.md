@@ -2,7 +2,6 @@
 
 *	저자: Noelia Ruiz Martínez.
 *	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
-*	Download [development version][2] (compatible with NVDA 2019.3 and beyond)
 
 이 추가 기능은 NVDA에서 입력한 글자 알림이 꺼져 있어도 입력된 기호 (영 숫자가 아니거나 공백이 아닌 문자)를 들을 수 있습니다.
 
@@ -42,8 +41,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=rsy
-
-[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev
+[1]: https://addons.nvda-project.org/files/get.php?file=reportSymbols
 
 [3]: https://addons.nvda-project.org/files/get.php?file=rsy-o
