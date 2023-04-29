@@ -1,7 +1,7 @@
 # Report Symbols #
 
 *	Auteur : Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	Télécharger [version stable][1] (compatible avec NVDA 2019.3 et au-delà)
 
 Cette extension permet d'écouter les symboles écrit (caractères non
 alphanumériques ou caractères en blanc), même si la verbalisation des
@@ -19,8 +19,8 @@ Note : Un geste pour ouvrir cette boîte de dialogue peut être assigné en
 allant dans le menu NVDA, sous-menu Préférences, dans le dialogue Gestes de
 commandes, dans la catégorie Configuration.
 
-## Changes for 7.0
-* Compatible with NVDA 2022.1.
+## Changements pour la version 7.0
+* Compatible avec NVDA 2022.1.
 
 ## Changements pour la version 6.0
 * Compatible avec NVDA 2021.1.
