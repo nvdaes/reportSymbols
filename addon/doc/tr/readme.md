@@ -1,7 +1,7 @@
 # Sembolleri bildir #
 
 *	Yazar: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
+*	[Kararlı sürümü indir][1] (NVA 2019.3 ve sonrası sürümlerle uyumlu)
 
 Bu eklenti, NVDA'da yazılan karakterlerin konuşulması kapatıldığında bile,
 yazılan sembollerin (alfanumerik olmayan veya boş karakterler)
@@ -18,8 +18,8 @@ Not: Bu iletişim kutusunu açmak için bir hareket, NVDA menüsü, Tercihler al
 menüsü, Girdi hareketleri iletişim kutusu, konfigürasyon kategorisinden
 atanabilir.
 
-## Changes for 7.0
-* Compatible with NVDA 2022.1.
+## 7.0 için değişiklikler
+* NVDA 2022.1 ile uyumlu.
 
 ## 6.0 için değişiklikler
 * NVDA 2021.1 ile uyumlu.
