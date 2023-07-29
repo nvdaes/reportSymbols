@@ -99,7 +99,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				speech.speakSpelling(ch)
 
 	def onSettings(self, evt):
-		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
+		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
 	@script(
 		category=SCRCAT_CONFIG,
