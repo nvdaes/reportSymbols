@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Autrice: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 Questo componente aggiuntivo consente di leggere i simboli digitati (non i
 caratteri alfanumerici o gli spazi), anche se la lettura dei caratteri
@@ -49,7 +48,5 @@ Configurazione.
 *	Versione iniziale.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

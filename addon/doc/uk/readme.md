@@ -1,7 +1,6 @@
 # Report Symbols (Промовляння символів) #
 
 *	Автор: Noelia Ruiz Martínez.
-*	Завантажити [стабільну версію][1] (сумісну з NVDA 2019.3 й пізнішими)
 
 Цей додаток дозволяє прослуховувати введені символи (не буквенно-цифрові чи
 порожні символи), навіть якщо в NVDA вимкнено озвучення введених символів.
@@ -44,7 +43,5 @@
 *	Перша версія.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

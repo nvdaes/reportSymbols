@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Автор: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 Это дополнение позволяет слышать набираемые символы (не буквенно-цифровые
 или пустые), даже если произношение символов выключено в NVDA.
@@ -45,7 +44,5 @@
 *	Первоначальная версия.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

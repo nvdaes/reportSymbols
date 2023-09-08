@@ -1,7 +1,6 @@
 # Javi znakove (Report Symbols) #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2019.3 i novijom)
 
 Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
 ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno
@@ -48,7 +47,5 @@ kategorija Konfiguracija.
 *	Prva verzija.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

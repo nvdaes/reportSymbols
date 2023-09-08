@@ -1,7 +1,6 @@
 # Puhu symbolit #
 
 *	Tekijä: Noelia Ruiz Martínez.
-*	Lataa [vakaa versio][1] (yhteensopiva NVDA 2019.3:n ja uudempien kanssa)
 
 Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit
 (ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien
@@ -47,7 +46,5 @@ ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 *	Ensimmäinen versio.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

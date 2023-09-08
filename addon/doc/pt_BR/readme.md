@@ -1,7 +1,6 @@
 # Informar Símbolos (Report Symbols) #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 Este complemento permite ouvir os símbolos digitados (caracteres não
 alfanuméricos ou invisíveis/em branco), mesmo quando a fala de caracteres
@@ -47,7 +46,5 @@ entrada), categoria Configuração.
 *	Versão inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o
