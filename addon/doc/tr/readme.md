@@ -1,7 +1,6 @@
 # Sembolleri bildir #
 
 *	Yazar: Noelia Ruiz Martínez.
-*	[Kararlı sürümü indir][1] (NVA 2019.3 ve sonrası sürümlerle uyumlu)
 
 Bu eklenti, NVDA'da yazılan karakterlerin konuşulması kapatıldığında bile,
 yazılan sembollerin (alfanumerik olmayan veya boş karakterler)
@@ -46,7 +45,5 @@ atanabilir.
 *	İlk sürüm.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

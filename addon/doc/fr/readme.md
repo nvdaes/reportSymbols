@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Auteur : Noelia Ruiz Martínez.
-*	Télécharger [version stable][1] (compatible avec NVDA 2019.3 et au-delà)
 
 Cette extension permet d'écouter les symboles écrit (caractères non
 alphanumériques ou caractères en blanc), même si la verbalisation des
@@ -48,7 +47,5 @@ commandes, dans la catégorie Configuration.
 *	Première version.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

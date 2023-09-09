@@ -1,7 +1,6 @@
 # 朗读符号 #
 
 *	作者: Noelia Ruiz Martínez.
-*	下载 [稳定版][1]（兼容NVDA 2019.3及更高版本）
 
 此插件允许听取输入的符号包括（非字母数字的字符），即使关闭了NVDA的输入字符朗读。
 
@@ -37,7 +36,5 @@
 *	发布初始版本。
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

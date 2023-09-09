@@ -1,7 +1,6 @@
 # Symbole ansagen #
 
 *	Autor: Noelia Ruiz Martínez.
-*	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2019.3 und neuer)
 
 Diese Erweiterung ermöglicht die Ansage der Symbole beim Tippen
 (z.B. Satzzeichen). Alphanumerische und leere Zeichen werden nicht
@@ -49,7 +48,5 @@ zugewiesen werden.
 *	Ehrstveröffentlichung.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

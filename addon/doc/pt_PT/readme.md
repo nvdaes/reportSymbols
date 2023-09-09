@@ -1,7 +1,6 @@
 # Anúncio de Símbolos #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 Este extra permite ouvir os símbolos digitados (caracteres não alfanuméricos
 ou invisíveis), mesmo quando  a opção \"Anunciar caracteres\" está
@@ -46,7 +45,5 @@ NVDA, Preferências, Definir comandos, na categoria Configuração.
 *	Versão inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

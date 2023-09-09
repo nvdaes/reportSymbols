@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 Acest supliment permite ascultarea simbolurilor tastate (caractere
 non-alfanumerice sau goale), atunci când vorbirea caracterelor tastate este
@@ -47,7 +46,5 @@ Configurare.
 *	Versiunea inițială.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

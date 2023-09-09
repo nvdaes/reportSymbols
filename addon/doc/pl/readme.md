@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2019.3 i nowszymi)
 
 Ten dodatek pozwala na nasłuchiwanie wpisanych symboli (znaków
 niealfanumerycznych lub pustych), nawet gdy mówienie wpisanych znaków jest
@@ -47,7 +46,5 @@ Konfiguracja.
 *	Wersja pierwoant.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

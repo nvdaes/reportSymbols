@@ -1,8 +1,6 @@
 # Съобщаване на символите (Report Symbols) #
 
 *	Автор: Noelia Ruiz Martínez.
-*	Изтегляне на [стабилна версия][1] (съвместима с NVDA 2019.3 и по-нови
-  версии)
 
 Тази добавка позволява да прослушвате въвежданите символи (не
 буквено-цифровите и празните знаци), дори когато опцията "Изговаряй
@@ -48,7 +46,5 @@
 *	Първо издание.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

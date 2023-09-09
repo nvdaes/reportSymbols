@@ -1,7 +1,6 @@
 # Čítať napísané symboly #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 Oznamuje napísané symboly (nealfanumerické alebo aj prázdne znaky) a to aj v
 prípade, ak je vypnuté čítanie napísaných znakov.
@@ -41,7 +40,5 @@ môžete tak urobiť v dialógu klávesové skratky, vetva možnosti.
 *	Prvé vydanie.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

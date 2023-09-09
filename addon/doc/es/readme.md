@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Autor: Noelia Ruiz Martínez.
-*	Descargar [versión estable][1] (compatible desde NVDA 2019.3 en adelante)
 
 Este complemento te permite escuchar los símbolos escritos (caracteres no
 alfanuméricos o en blanco), incluso cuando Verbalizar carácteres al escribir
@@ -46,7 +45,5 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 *	Versión inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

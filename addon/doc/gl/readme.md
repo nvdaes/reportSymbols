@@ -1,7 +1,6 @@
 # Report Symbols #
 
 *	Autor: Noelia Ruiz Martínez.
-*	[descargar versión estable][1] (compatible con NVDA 2019.3 en diante)
 
 Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
 alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea
@@ -46,7 +45,5 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 *	Versión inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o
