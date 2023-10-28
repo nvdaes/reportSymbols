@@ -12,7 +12,8 @@ import api
 import config
 import speech
 import gui
-from gui import SettingsPanel, NVDASettingsDialog, guiHelper
+from gui import guiHelper
+from gui.settingsDialogs import SettingsPanel, NVDASettingsDialog
 from globalCommands import SCRCAT_CONFIG
 from scriptHandler import script
 
