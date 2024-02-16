@@ -1,6 +1,6 @@
 # Report Symbols #
 
-*	Autrice: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Questo componente aggiuntivo consente di leggere i simboli digitati (non i
 caratteri alfanumerici o gli spazi), anche se la lettura dei caratteri

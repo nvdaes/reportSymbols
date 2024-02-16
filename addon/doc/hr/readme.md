@@ -1,6 +1,6 @@
 # Javi znakove (Report Symbols) #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
 ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno

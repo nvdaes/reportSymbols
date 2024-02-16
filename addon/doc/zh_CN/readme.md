@@ -1,6 +1,6 @@
 # 读出符号 #
 
-*	作者： Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 即使 NVDA 的“读出输入字符”功能已关闭，该插件也可以读出键入的符号（非字母数字或空白字符）。
 

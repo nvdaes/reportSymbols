@@ -1,6 +1,6 @@
 # Anúncio de Símbolos #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Este extra permite ouvir os símbolos digitados (caracteres não alfanuméricos
 ou invisíveis), mesmo quando  a opção \"Anunciar caracteres\" está

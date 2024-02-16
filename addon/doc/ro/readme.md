@@ -1,6 +1,6 @@
 # Report Symbols #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Acest supliment permite ascultarea simbolurilor tastate (caractere
 non-alfanumerice sau goale), atunci când vorbirea caracterelor tastate este
