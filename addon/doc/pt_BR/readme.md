@@ -1,6 +1,6 @@
 # Informar Símbolos (Report Symbols) #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Este complemento permite ouvir os símbolos digitados (caracteres não
 alfanuméricos ou invisíveis/em branco), mesmo quando a fala de caracteres

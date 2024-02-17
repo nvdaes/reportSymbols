@@ -1,6 +1,6 @@
 # Symbole ansagen #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Diese Erweiterung ermöglicht die Ansage der Symbole beim Tippen
 (z.B. Satzzeichen). Alphanumerische und leere Zeichen werden nicht

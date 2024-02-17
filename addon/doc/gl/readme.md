@@ -1,6 +1,6 @@
 # Report Symbols #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Este complemento permíteche escoitar os símbolos escrebidos (carácteres non
 alfanuméricos ou en branco), aínda cando falar carácteres ao escrebir  estea

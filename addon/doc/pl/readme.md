@@ -1,6 +1,6 @@
 # Report Symbols #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Ten dodatek pozwala na nasłuchiwanie wpisanych symboli (znaków
 niealfanumerycznych lub pustych), nawet gdy mówienie wpisanych znaków jest

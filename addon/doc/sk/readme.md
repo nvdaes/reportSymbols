@@ -1,6 +1,6 @@
 # Čítať napísané symboly #
 
-*	Autor: Noelia Ruiz Martínez.
+*	Author: Noelia Ruiz Martínez.
 
 Oznamuje napísané symboly (nealfanumerické alebo aj prázdne znaky) a to aj v
 prípade, ak je vypnuté čítanie napísaných znakov.
