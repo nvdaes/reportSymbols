@@ -1,6 +1,6 @@
 # Puhu symbolit #
 
-*	Author: Noelia Ruiz Martínez.
+*	Tekijä: Noelia Ruiz Martínez
 
 Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit
 (ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien
