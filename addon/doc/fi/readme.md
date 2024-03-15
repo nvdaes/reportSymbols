@@ -17,6 +17,9 @@ Huom: Tälle valintaikkunalle voidaan määrittää näppäinkomento menemällä
 NVDA-valikkoon, avaamalla Asetukset-alivalikosta Näppäinkomennot-vaihtoehto
 ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Muutokset versiossa 7.0
 * Yhteensopiva NVDA 2022.1:n kanssa.
 

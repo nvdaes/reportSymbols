@@ -17,6 +17,9 @@ Uwaga: Gest otwierający to okno dialogowe można przypisać z menu NVDA,
 podmenu Preferencje, okna dialogowego Gesty wprowadzania, kategorii
 Konfiguracja.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Zmiany w wersji 7.0
 * Kompatybilny z NVDA 2022.1.
 

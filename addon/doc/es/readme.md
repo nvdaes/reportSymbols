@@ -16,6 +16,9 @@ autora. Deberías desinstalarlo para utilizar esta versión.
 Nota: Se puede asignar un gesto para abrir este diálogo desde el menú NVDA,
 submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
+## Cambios para 8.0
+* Compatible con NVDA 2023.1.
+
 ## Cambios para 7.0
 * Compatible con NVDA 2022.1.
 
