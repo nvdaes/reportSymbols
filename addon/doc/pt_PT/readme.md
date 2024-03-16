@@ -16,6 +16,9 @@ mesmo autor. deve desinstalá-lo para usar esta versão.
 Nota: O comando para abrir esta caixa de diálogo pode ser atribuído no menu
 NVDA, Preferências, Definir comandos, na categoria Configuração.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Changes for 7.0
 * Compatible with NVDA 2022.1.
 

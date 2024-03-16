@@ -12,6 +12,9 @@
 참고: 이 대화상자를 여는 제스처는 NVDA 메뉴, 환경 설정 하위 메뉴, 입력 제스처 대화상자, 환경 설정 카테고리에서 지정할 수
 있습니다.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Changes for 7.0
 * Compatible with NVDA 2022.1.
 

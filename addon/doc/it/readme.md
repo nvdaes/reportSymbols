@@ -18,6 +18,9 @@ Nota: è possibile assegnare un comando rapido per aprire questa finestra
 tramite le impostazioni Gesti e tasti di immissione, nella categoria
 Configurazione.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Changes for 7.0
 * Compatible with NVDA 2022.1.
 

@@ -17,6 +17,9 @@ Not: Bu iletişim kutusunu açmak için bir hareket, NVDA menüsü, Tercihler al
 menüsü, Girdi hareketleri iletişim kutusu, konfigürasyon kategorisinden
 atanabilir.
 
+## 8.0 için değişiklikler
+* NVDA 2023.1 ile uyumlu.
+
 ## 7.0 için değişiklikler
 * NVDA 2022.1 ile uyumlu.
 

@@ -17,6 +17,9 @@ Nota: Um comando (gesto) para abrir esta caixa de diálogo pode ser atribuído
 no menu NVDA, submenu Preferências, diálogo Definir comandos (Gestos de
 entrada), categoria Configuração.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Changes for 7.0
 * Compatible with NVDA 2022.1.
 

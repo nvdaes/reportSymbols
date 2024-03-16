@@ -19,6 +19,9 @@ Hinweis: Eine Tastenkürzel zum Öffnen dieses Dialogs kann über das
 NVDA-Menü, Untermenü Einstellungen, Dialog Eingaben, Kategorie Konfiguration
 zugewiesen werden.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Änderungen in 7.0
 * Kompatibel mit NVDA 2022.1.
 

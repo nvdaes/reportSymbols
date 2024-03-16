@@ -16,6 +16,9 @@ autora. Deberías desinstalalo para utilizar esta versión.
 Nota: pódese asignar un xesto para abrir este diálogo dende o menú NVDA,
 submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
+
 ## Cambios para 7.0
 * Compatible con NVDA 2022.1.
 
