@@ -12,7 +12,8 @@ import api
 import config
 import speech
 import gui
-from gui import SettingsPanel, NVDASettingsDialog, guiHelper
+from gui import guiHelper
+from gui.settingsDialogs import SettingsPanel, NVDASettingsDialog
 from globalCommands import SCRCAT_CONFIG
 from scriptHandler import script
 
@@ -99,7 +100,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				speech.speakSpelling(ch)
 
 	def onSettings(self, evt):
-		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
+		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
 	@script(
 		category=SCRCAT_CONFIG,

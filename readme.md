@@ -1,6 +1,5 @@
 # Report Symbols #
 *	Author: Noelia Ruiz Martínez.
-*	Download [stable version][1] (compatible with NVDA 2019.3 and beyond)
 
 This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.
 
@@ -37,7 +36,5 @@ Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences 
 
 ## Changes for 1.0 ##
 *	Initial version.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o
