@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-09-02 23:32+1000\n"
-"PO-Revision-Date: 2021-08-03 15:54+0200\n"
+"PO-Revision-Date: 2024-05-09 13:29+0300\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -34,9 +34,9 @@ msgid "Repor&t other blank characters"
 msgstr "Озвучива&ть другие пустые символы"
 
 #. Translators: message presented in input mode.
-#, fuzzy, python-brace-format
-msgid "Shows the {ADDON_SUMMARY} settings."
-msgstr "Показывает параметры дополнения report symbols."
+#, fuzzy, python-format
+msgid "Shows the %s settings."
+msgstr "Показывает параметры {ADDON_SUMMARY}."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
