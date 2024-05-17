@@ -1,6 +1,6 @@
 # Javi znakove (Report Symbols) #
 
-*	Author: Noelia Ruiz Martínez.
+*	Autor: Noelia Ruiz Martínez.
 
 Ovaj dodatak omogućava slušanje utipkanih znakova (nealfanumeričkih znakova
 ili praznih znakova), čak i kad je izgovaranje utipkanih znakova isključeno
@@ -18,8 +18,8 @@ Napomena: Gesta za otvaranje ovog dijaloškog okvira može se dodijeliti
 koristeći NVDA izbornik, podizbornik Postavke, dijaloški okvir Ulazne geste,
 kategorija Konfiguracija.
 
-## Changes for 8.0
-* Compatible with NVDA 2023.1.
+## Promjene u verziji 8.0
+* Kompatibilno s NVDA čitačem 2023.1.
 
 ## Promjene u verziji 7.0
 * Kompatibilno s NVDA čitačem 2022.1.
