@@ -33,7 +33,6 @@ atanabilir.
 * Eklenti ayarları, NVDA Ayarları iletişim kutusunun ilgili kategorisinde
   gösterilir.
 * NVDA 2018.2 veya sonraki sürümünü gerektirir.
-* Gerekirse [NVDA 2017.3 ile uyumlu son sürümü][3] indirebilirsiniz.
 
 ## 3.0 için değişiklikler ##
 * Boşlukların, satır başlarının ve diğer boş karakterlerin söylenmesi için
@@ -49,4 +48,3 @@ atanabilir.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

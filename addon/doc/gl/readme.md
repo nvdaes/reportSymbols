@@ -32,8 +32,6 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 * A configuración do complemento amósase na categoría correspondente do
   diálogo oPcións do NVDA.
 * Requírese NVDA 2018.4 ou posterior.
-* Se fora necesario, podes descargar a [derradeira versión compatible co
-  NVDA 2017.3][3].
 
 ## Cambios para 3.0 ##
 * Engadidas caixas de verificación para a fala de espazos, retornos de carro
@@ -49,4 +47,3 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

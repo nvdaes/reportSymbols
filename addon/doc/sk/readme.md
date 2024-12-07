@@ -29,7 +29,6 @@ môžete tak urobiť v dialógu klávesové skratky, vetva možnosti.
 ## Verzia 4.0 ##
 * Nastavenia doplnku boli presunuté do dialógu s nastaveniami NVDA.
 * Funguje s NVDA 2018.2
-* Môžete si stiahnuť [Verziu pre NVDA 2017.3][3].
 
 ## Verzia 3.0 ##
 * Pridané možnosti nastaviť oznamovanie pre medzery, nové riadky a iné
@@ -44,4 +43,3 @@ môžete tak urobiť v dialógu klávesové skratky, vetva možnosti.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

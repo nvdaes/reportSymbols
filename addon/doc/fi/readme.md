@@ -33,8 +33,6 @@ ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 * Lisäosan asetukset näkyvät omassa kategoriassaan
   Asetukset-valintaikkunassa.
 * Vaatii NVDA 2018.2:n tai uudemman.
-* Tarvittaessa voit ladata [viimeisimmän version, joka on yhteensopiva NVDA
-  2017.3:n kanssa.][3]
 
 ## Muutokset versiossa 3.0 ##
 * Lisätty valintaruudut välilyöntien, rivinvaihtojen ja muiden tyhjämerkkien
@@ -50,4 +48,3 @@ ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

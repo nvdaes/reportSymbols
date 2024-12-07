@@ -33,8 +33,6 @@ Konfiguracja.
 * Ustawienia dodatku są wyświetlane w odpowiedniej kategorii dialogu
   ustawień NVDA.
 * Wymaga NVDA w wersji 2018.2 lub nowszej.
-* Jeżeli to potrzebne, można pobrać [ostatnią wersję zgodną z NVDA
-  2017.3][3].
 
 ## Zmiany dla wersji 3.0 ##
 * Dodano pola wyboru dla mówiących spacji, zwrotów karetki i innych pustych
@@ -50,4 +48,3 @@ Konfiguracja.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

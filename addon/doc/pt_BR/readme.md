@@ -33,8 +33,6 @@ entrada), categoria Configuração.
 * As configurações do complemento são incluídas na categoria respectiva do
   diálogo Configurações do NVDA.
 * Requer NVDA 2018.2 ou posterior.
-* Se for necessário, pode baixar a [última versão compatível com o NVDA
-  2017.3][3].
 
 ## Alterações para 3.0 ##
 * Adicionadas Caixas de seleção para falar espaços, retornos de carro
@@ -50,4 +48,3 @@ entrada), categoria Configuração.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

@@ -34,8 +34,6 @@ Configurazione.
 * Le impostazioni del componente aggiuntivo vengono visualizzate nella
   finestra impostazioni di NVDA sotto la rispettiva categoria.
 * Richiede NVDA 2018.2 o superiore.
-* SE è necessario, si può scaricare [l'ultima versione compatibile con NVDA
-  2017.3][3].
 
 ## Novità nella versione 3.0 ##
 * Aggiunte caselle di controllo per la lettura di spazi, segni di fine riga
@@ -52,4 +50,3 @@ Configurazione.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

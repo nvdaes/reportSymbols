@@ -34,8 +34,6 @@ commandes, dans la catégorie Configuration.
 * Les paramètres de l'extension sont affichés dans la catégorie
   correspondante du dialogue Paramètres NVDA.
 * Nécessite NVDA 2018.2 ou ultérieur.
-* Si nécessaire, vous pouvez télécharger la [dernière version compatible
-  avec NVDA 2017.3][3].
 
 ## Changements pour la version 3.0 ##
 * Ajout de cases à cocher pour la verbalisation des espaces, des retours de
@@ -51,4 +49,3 @@ commandes, dans la catégorie Configuration.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

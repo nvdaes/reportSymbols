@@ -35,8 +35,6 @@ zugewiesen werden.
 * Die Einstellungen für die Erweiterung werden in der entsprechenden
   Kategorie des NVDA-Einstellungsdialogs angezeigt.
 * Benötigt NVDA 2018.2 oder höher.
-* Bei Bedarf können Sie die [letzte Version, die mit NVDA 2017.3 kompatibel
-  ist][3] herunterladen.
 
 ## Änderungen in 3.0 ##
 * Es wurden Kontrollfelder für das Ansagen der Leerzeichen, Wagenrücklauf
@@ -52,4 +50,3 @@ zugewiesen werden.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

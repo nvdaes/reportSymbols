@@ -33,8 +33,6 @@ Configurare.
 * Setările suplimentuli sunt afișate în categoria corespunzătoare a
   dialogului setărilor NVDA.
 * Necesită NVDA 2018.2 sau mai nou.
-* Dacă e necesar, puteți să descărcați [ultima versiune compatibilă cu NVDA
-  2017.3][3].
 
 ## Modificări în 3.0Modificări în 1.0 ##
 * Au fost adăugate casete de bifat pentru vorbirea spațiilor, a liniilor noi
@@ -50,4 +48,3 @@ Configurare.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

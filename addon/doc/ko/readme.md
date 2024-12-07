@@ -28,8 +28,6 @@
 * The add-on settings are shown in the corresponding category of the NVDA
   Settings dialog.
 * Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
 
 ## 3.0에서의 변경사항 ##
 * 공백, 캐리지 리턴 및 기타 공백 문자를 말할지 여부를 지정하는 체크상자 추가.
@@ -43,4 +41,3 @@
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

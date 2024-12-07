@@ -32,8 +32,6 @@ NVDA, Preferências, Definir comandos, na categoria Configuração.
 * As configurações do extra são incluídas na categoria respectiva do diálogo
   Configurações do NVDA.
 * Requer NVDA 2018.2 ou posterior.
-* Se for necessário, pode fazer o download da [última versão compatível com
-  o NVDA 2017.3] [3].
 
 ## Aalterações para 3.0: ##
 * Adicionadas Caixas de verificação para anunciar espaços, retornos e outros
@@ -49,4 +47,3 @@ NVDA, Preferências, Definir comandos, na categoria Configuração.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o

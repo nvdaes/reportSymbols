@@ -32,8 +32,6 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 * La configuración del complemento se muestra en la categoría
   correspondiente del diálogo oPciones de NVDA.
 * Se requiere de NVDA 2018.2 o posterior.
-* Si fuese necesario, puedes descargar la [última versión compatible con
-  NVDA 2017.3][3].
 
 ## Cambios para 3.0 ##
 * Añadidas casillas de verificación para la verbalización de espacios,
@@ -49,4 +47,3 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o
