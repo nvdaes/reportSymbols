@@ -1,6 +1,6 @@
 # Informar Símbolos (Report Symbols) #
 
-*	Author: Noelia Ruiz Martínez.
+*	Autor: Noelia Ruiz Martínez.
 
 Este complemento permite ouvir os símbolos digitados (caracteres não
 alfanuméricos ou invisíveis/em branco), mesmo quando a fala de caracteres
@@ -17,11 +17,11 @@ Nota: Um comando (gesto) para abrir esta caixa de diálogo pode ser atribuído
 no menu NVDA, submenu Preferências, diálogo Definir comandos (Gestos de
 entrada), categoria Configuração.
 
-## Changes for 8.0
-* Compatible with NVDA 2023.1.
+## Alterações para 8.0
+* Compatível com NVDA 2023.1.
 
-## Changes for 7.0
-* Compatible with NVDA 2022.1.
+## Alterações para 7.0
+* Compatível com NVDA 2022.1.
 
 ## Alterações para 6.0
 * Compatível com NVDA 2021.1.
