@@ -48,3 +48,4 @@ commandes, dans la catégorie Configuration.
 *	Première version.
 
 [[!tag dev stable]]
+
