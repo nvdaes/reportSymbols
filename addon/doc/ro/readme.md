@@ -47,4 +47,3 @@ Configurare.
 *	Versiunea inițială.
 
 [[!tag dev stable]]
-
