@@ -47,4 +47,3 @@ ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 *	Ensimmäinen versio.
 
 [[!tag dev stable]]
-

@@ -35,4 +35,3 @@ Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences 
 
 ## Changes for 1.0 ##
 *	Initial version.
-

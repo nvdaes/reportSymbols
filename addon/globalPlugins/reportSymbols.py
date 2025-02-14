@@ -32,7 +32,6 @@ config.conf.spec["reportSymbols"] = confspec
 
 
 class AddonSettingsPanel(SettingsPanel):
-
 	title = ADDON_PANEL_TITLE
 
 	def makeSettings(self, settingsSizer):
@@ -64,7 +63,6 @@ class AddonSettingsPanel(SettingsPanel):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
@@ -79,7 +77,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		typingEchoMode = config.conf["keyboard"]["speakTypedCharacters"]
 		if (
 			typingEchoMode == config.configFlags.TypingEcho.OFF.value
-			or (typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value and not speech.speech.isFocusEditable())
+			or (
+				typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value
+				and not speech.speech.isFocusEditable()
+			)
 			and config.conf["keyboard"]["speechInterruptForCharacters"]
 		):
 			if (
@@ -107,7 +108,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		category=SCRCAT_CONFIG,
 		# Translators: message presented in input mode.
-		description=_("Shows the %s settings.") % ADDON_SUMMARY
+		description=_("Shows the %s settings.") % ADDON_SUMMARY,
 	)
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettings, None)
