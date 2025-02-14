@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 # reportSymbols: Plugin to listen the typed symbols (non alphanumeric characters)
-# Copyright (C) 2013-2022 Noelia Ruiz Martínez
+# Copyright (C) 2013-2025 Noelia Ruiz Martínez
 # Released under GPL 2
 
 import wx
@@ -76,8 +76,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		nextHandler()
 		if api.isTypingProtected():
 			return
+		typingEchoMode = config.conf["keyboard"]["speakTypedCharacters"]
 		if (
-			not config.conf["keyboard"]["speakTypedCharacters"]
+			typingEchoMode == config.configFlags.TypingEcho.OFF.value
+			or (typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value and not speech.speech.isFocusEditable())
 			and config.conf["keyboard"]["speechInterruptForCharacters"]
 		):
 			if (
