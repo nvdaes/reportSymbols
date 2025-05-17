@@ -14,8 +14,9 @@ tulisi poistaa se tämän version käyttämiseksi.
   määrittämisen.
 
 Huom: Tälle valintaikkunalle voidaan määrittää näppäinkomento menemällä
-NVDA-valikkoon, avaamalla Asetukset-alivalikosta Näppäinkomennot-vaihtoehto
-ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
+NVDA-valikkoon, avaamalla Mukautukset-alivalikosta
+Näppäinkomennot-vaihtoehto ja valitsemalla avautuvasta valintaikkunasta
+Asetukset-kategoria.
 
 ## Muutokset versiossa 8.0
 * Yhteensopiva NVDA 2023.1:n kanssa.
