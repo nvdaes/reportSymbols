@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: reportSymbols 1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-10-07 18:01+1000\n"
-"PO-Revision-Date: 2021-07-17 21:13+0330\n"
+"PO-Revision-Date: 2025-05-29 11:18+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Translators: label of a dialog.
 msgid "Report &printable symbols"
@@ -34,9 +34,9 @@ msgid "Repor&t other blank characters"
 msgstr "اعلامِ دیگر نویسه‌های &خالی"
 
 #. Translators: message presented in input mode.
-#, fuzzy, python-format
+#, python-format
 msgid "Shows the %s settings."
-msgstr "تنظیماتِ {ADDON_SUMMARY} را نشان میدهد."
+msgstr "تنظیماتِ %s را نشان می‌دهد."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -49,5 +49,5 @@ msgid ""
 "Allows to listen the typed symbols (non alphanumeric or blank characters), "
 "even when the speaking of characters is turned off."
 msgstr ""
-"امکانِ شنیدنِ نمادهای تایپ‌شده (نمادهای غیر الفبا‌عددی و نمادهای خالی) را، حتی "
-"در صورتی که خواندنِ نویسه‌ها غیرفعال باشد فراهم میکند."
+"امکانِ شنیدنِ نمادهای تایپ‌شده (نمادهای غیر الفبا‌عددی و نمادهای خالی) را، حتی در "
+"صورتی که خواندنِ نویسه‌ها غیرفعال باشد فراهم میکند."
