@@ -47,4 +47,3 @@ atanabilir.
 *	İlk sürüm.
 
 [[!tag dev stable]]
-
