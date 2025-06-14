@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reportSymbols 1.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2016-10-07 18:01+1000\n"
+"PO-Revision-Date: 2018-06-21 21:48+0200\n"
+"Last-Translator: Robert Hänggi <aarjay.robert@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+
+#. Translators: label of a dialog.
+msgid "Report &printable symbols"
+msgstr "&Druckbare Symbole ansagen"
+
+#. Translators: label of a dialog.
+msgid "Report &spaces"
+msgstr "&Leerzeichen ansagen"
+
+#. Translators: label of a dialog.
+msgid "&Report carriage returns"
+msgstr "&Zeilenumbrüche ansagen"
+
+#. Translators: label of a dialog.
+msgid "Repor&t other blank characters"
+msgstr "&Weitere Leerzeichen ansagen"
+
+#. Translators: message presented in input mode.
+#, fuzzy, python-brace-format
+msgid "Shows the {ADDON_SUMMARY} settings."
+msgstr "Zeigt die Einstellungen der anzusagenden Symbole an."
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Report Symbols"
+msgstr "Symbol-Ansagen"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
+msgstr ""
+"Ermöglicht das Anhören der getippten Symbole (keine alphanumerische Zeichen "
+"oder Leerzeichen), auch wenn das Sprechen von Zeichen ausgeschaltet ist."
+
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Sie haben möglicherweise eine veraltete und inkompatible Version der "
+#~ "Erweiterung Symbole ansagen installiert. Möchten Sie sie jetzt "
+#~ "deinstallieren?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Inkompatible Erweiterung deinstallieren"
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "Symbole ansagen-Einstellungen"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "Einstellungen der &Symbol-Ansagen..."
