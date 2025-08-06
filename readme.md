@@ -10,6 +10,14 @@ It's based on the old ReportSymbols add-on, developed by the same author. You sh
 
 Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
 
+## Exclude symbols
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.
+
+## Changes for 29.0.0
+
+* Added ability to assing gestures to exclude or include symbols to be reported when typing.
+
 ## Changes for 8.0
 * Compatible with NVDA 2023.1.
 
