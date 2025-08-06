@@ -154,7 +154,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		script.__doc__ = _(
 			# Translators: Message presented in input help mode.
 			"Excludes or includes the %s symbol in the set of signs to be reported when typing"
-			% symbol.replacement
+			% symbol.replacement,
 		)
 		setattr(cls, funcName, script)
 
