@@ -68,6 +68,7 @@ class AddonSettingsPanel(SettingsPanel):
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = ADDON_SUMMARY
+
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
@@ -93,7 +94,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				and not ch.isalnum()
 				and not ch.isspace()
 				and ord(ch) >= 32
-				and not ch in config.conf["reportSymbols"]["excludedSymbols"]
+				and ch not in config.conf["reportSymbols"]["excludedSymbols"]
 			):
 				speech.speakSpelling(ch)
 			elif config.conf["reportSymbols"]["speakTypedSpaces"] and ord(ch) == 32:
@@ -110,7 +111,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def onSettings(self, evt):
 		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
-
 
 	@classmethod
 	def __new__(cls, *args, **kwargs):
@@ -150,10 +150,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def addScriptForSymbol(cls, symbol):
 		script = lambda self, gesture: cls._symbolScript(symbol)  # Noqa E731
 		funcName = script.__name__ = "script_%s" % cls._getScriptNameForSymbol(symbol)
-		setattr(cls, funcName, script)
 		# Just set the doc string of the script, using the decorator is overkill here.
-		# Translators: Message presented in input help mode.
-		script.__doc__ = _("Excludes or includes the %s symbol in the set of signs to be reported when typing" % symbol.replacement)
+		script.__doc__ = _(
+			# Translators: Message presented in input help mode.
+			"Excludes or includes the %s symbol in the set of signs to be reported when typing"
+			% symbol.replacement
+		)
+		setattr(cls, funcName, script)
 
 	@script(
 		category=SCRCAT_CONFIG,
