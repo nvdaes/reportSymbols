@@ -48,3 +48,4 @@ Asetukset-kategoria.
 *	Ensimmäinen versio.
 
 [[!tag dev stable]]
+
