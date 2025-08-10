@@ -46,4 +46,3 @@ submenú Preferencias, diálogo Xestos de entrada, categoría Configuración.
 *	Versión inicial.
 
 [[!tag dev stable]]
-

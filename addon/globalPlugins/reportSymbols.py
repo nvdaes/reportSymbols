@@ -5,10 +5,13 @@
 # Released under GPL 2
 
 import wx
+import copy
 
 import addonHandler
 import globalPluginHandler
 import api
+import characterProcessing
+import ui
 import config
 import speech
 import gui
@@ -27,6 +30,7 @@ confspec = {
 	"speakTypedSpaces": "boolean(default=False)",
 	"speakEnter": "boolean(default=False)",
 	"speakTab": "boolean(default=False)",
+	"excludedSymbols": "string_list(default=list())",
 }
 config.conf.spec["reportSymbols"] = confspec
 
@@ -63,6 +67,8 @@ class AddonSettingsPanel(SettingsPanel):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+	scriptCategory = ADDON_SUMMARY
+
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
@@ -88,6 +94,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				and not ch.isalnum()
 				and not ch.isspace()
 				and ord(ch) >= 32
+				and ch not in config.conf["reportSymbols"]["excludedSymbols"]
 			):
 				speech.speakSpelling(ch)
 			elif config.conf["reportSymbols"]["speakTypedSpaces"] and ord(ch) == 32:
@@ -104,6 +111,52 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def onSettings(self, evt):
 		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
+
+	@classmethod
+	def __new__(cls, *args, **kwargs):
+		# Iterate through the available symbols, creating scripts for them.
+		for symbol in cls.getSymbols():
+			cls.addScriptForSymbol(symbol)
+		return super(GlobalPlugin, cls).__new__(cls)
+
+	@classmethod
+	def getSymbols(cls):
+		try:
+			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(
+				speech.getCurrentLanguage(),
+			)
+		except LookupError:
+			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData("en")
+		symbols = [copy.copy(symbol) for symbol in processor.computedSymbols.values()]
+		return symbols
+
+	@classmethod
+	def _getScriptNameForSymbol(cls, symbol):
+		name = symbol.replacement.replace(" ", "_")
+		return "symbol_%s" % name
+
+	@classmethod
+	def _symbolScript(cls, symbol):
+		if symbol.identifier not in config.conf["reportSymbols"]["excludedSymbols"]:
+			config.conf["reportSymbols"]["excludedSymbols"].append(symbol.identifier)
+			# Translators: Reported when a symbol has been added to excludedSymbols.
+			ui.message(_("{symbol} excluded from symbols to report").format(symbol=symbol.replacement))
+		else:
+			config.conf["reportSymbols"]["excludedSymbols"].remove(symbol.identifier)
+			# Translators: Reported when a symbol has been removed to excludedSymbols.
+			ui.message(_("{symbol} included in symbols to report").format(symbol=symbol.replacement))
+
+	@classmethod
+	def addScriptForSymbol(cls, symbol):
+		script = lambda self, gesture: cls._symbolScript(symbol)  # Noqa E731
+		funcName = script.__name__ = "script_%s" % cls._getScriptNameForSymbol(symbol)
+		# Just set the doc string of the script, using the decorator is overkill here.
+		script.__doc__ = _(
+			# Translators: Message presented in input help mode.
+			"Excludes or includes the %s symbol in the set of signs to be reported when typing"
+			% symbol.replacement,
+		)
+		setattr(cls, funcName, script)
 
 	@script(
 		category=SCRCAT_CONFIG,
