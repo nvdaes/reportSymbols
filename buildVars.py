@@ -108,4 +108,3 @@ symbolDictionaries: SymbolDictionaries = {}
 # displayName (name of the speech dictionary shown to users and translatable),
 # mandatory (True when always enabled, False when not).
 speechDictionaries: SpeechDictionaries = {}
-
