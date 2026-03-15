@@ -49,4 +49,3 @@ Configurazione.
 *	Versione iniziale.
 
 [[!tag dev stable]]
-
