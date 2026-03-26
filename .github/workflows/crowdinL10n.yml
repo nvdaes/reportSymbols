@@ -36,7 +36,7 @@ jobs:
       - name: Download l10nUtil from nvdal10n
         run: |
           New-Item -ItemType Directory -Force -Path _l10n | Out-Null
-          gh run download --repo nvaccess/nvdaL10n --name l10nUtil --dir _l10n_temp
+          gh run download --repo nvaccess/nvdaL10n --dir _l10n_temp
           Move-Item -Path _l10n_temp/l10nUtil.exe -Destination _l10n/l10nUtil.exe -Force
           Remove-Item -Path _l10n_temp -Recurse -Force
         env:
