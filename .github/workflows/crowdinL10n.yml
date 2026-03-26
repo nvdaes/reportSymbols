@@ -35,7 +35,7 @@ jobs:
           uv run ./.github/workflows/setOutputs.py
       - name: Download l10nUtil from nvdal10n
         run: |
-          gh run download --repo nvaccess/nvdal10n --dir _l10n -Z
+          gh run download --repo nvaccess/nvdal10n --dir _l10n --pattern "*.exe"
         env:
           GH_TOKEN: ${{ github.token }}
 
