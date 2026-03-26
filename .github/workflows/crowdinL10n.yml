@@ -35,7 +35,12 @@ jobs:
           uv run ./.github/workflows/setOutputs.py
       - name: Download l10nUtil from nvdal10n
         run: |
-          curl -L -o _l10n/l10nUtil.exe https://github.com/nvaccess/nvdaL10n/actions/runs/23521126188/artifacts/6093365586
+          New-Item -ItemType Directory -Force -Path _l10n | Out-Null
+          gh run download --repo nvaccess/nvdaL10n --name l10nUtil --dir _l10n_temp
+          Move-Item -Path _l10n_temp/l10nUtil.exe -Destination _l10n/l10nUtil.exe -Force
+          Remove-Item -Path _l10n_temp -Recurse -Force
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Upload md
         run: |
