@@ -3,12 +3,6 @@ name: Crowdin l10n
 on:
 
   workflow_dispatch:
-    inputs:
-      dry-run:
-        description: 'Dry run mode (skip Crowdin upload/download)'
-        required: false
-        type: boolean
-        default: false
   schedule:
     # Every Monday at 00:00 UTC
     - cron: '0 0 * * 1'
@@ -19,10 +13,7 @@ env:
   crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
   downloadTranslationsBranch: l10n
 jobs:
-  build:
-    uses: ./.github/workflows/build_addon.yml
   crowdinSync:
-    needs: build
     runs-on: windows-latest
     permissions:
       contents: write
@@ -39,30 +30,20 @@ jobs:
         uses: astral-sh/setup-uv@v7
       - name: Get add-on info
         id: getAddonInfo
-        shell: pwsh
         run: |
           uv sync
           uv run ./.github/workflows/setOutputs.py
       - name: Download l10nUtil from nvdal10n
-        if: ${{ inputs.dry-run != true }}
         run: |
           gh run download --repo nvaccess/nvdal10n --name l10nUtil --dir _l10n
       - name: Upload md
-        if: ${{ (steps.getAddonInfo.outputs.shouldAddMdFromScratch == 'true' || steps.getAddonInfo.outputs.shouldUpdateMd == 'true') && inputs.dry-run != true }}
         run: |
           Move-Item -Path readme.md -Destination "${{ steps.getAddonInfo.outputs.addonId }}.md"
           uv run ./_l10n/l10nUtil.exe uploadSourceFile --localFilePath=${{ steps.getAddonInfo.outputs.addonId }}.md -c addon
-      - name: Download pot from build job
-        if: ${{ inputs.dry-run != true }}
-        uses: actions/download-artifact@v8
-        with:
-          name: packaged_addon
       - name: Upload pot
-        if: ${{ (steps.getAddonInfo.outputs.shouldAddPotFromScratch == 'true' || steps.getAddonInfo.outputs.shouldUpdatePot == 'true') && inputs.dry-run != true }}
         run: |
           uv run ./_l10n/l10nUtil.exe uploadSourceFile --localFilePath=${{ steps.getAddonInfo.outputs.addonId }}.pot -c addon
       - name: Download translations from Crowdin
-        if: ${{ inputs.dry-run != true }}
         run: |
           uv run _l10n/l10nUtil.exe exportTranslations -o _addonL10n -c addon
           New-Item -ItemType Directory -Force -Path addon/locale | Out-Null
