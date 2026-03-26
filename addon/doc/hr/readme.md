@@ -48,3 +48,4 @@ kategorija Konfiguracija.
 *	Prva verzija.
 
 [[!tag dev stable]]
+

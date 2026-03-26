@@ -47,3 +47,4 @@ Konfiguracja.
 *	Wersja pierwoant.
 
 [[!tag dev stable]]
+

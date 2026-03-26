@@ -42,3 +42,4 @@ môžete tak urobiť v dialógu klávesové skratky, vetva možnosti.
 *	Prvé vydanie.
 
 [[!tag dev stable]]
+
