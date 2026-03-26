@@ -4,7 +4,6 @@
 
 import os
 import sys
-import json
 
 sys.path.insert(0, os.getcwd())
 import buildVars
