@@ -22,7 +22,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	addon_description=_("""Allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of characters is turned off."""),
 	# version
-	addon_version="30.1.0",
+	addon_version="31.0.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""* Compatible with NVDA 2026.1."""),
