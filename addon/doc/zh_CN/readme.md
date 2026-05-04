@@ -38,4 +38,3 @@
 *	初始版本。
 
 [[!tag dev stable]]
-

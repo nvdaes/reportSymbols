@@ -47,4 +47,3 @@ entrada), categoria Configuração.
 *	Versão inicial.
 
 [[!tag dev stable]]
-
