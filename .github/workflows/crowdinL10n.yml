@@ -1,83 +1,64 @@
 name: Crowdin l10n
 
 on:
-
   workflow_dispatch:
   schedule:
     # Every Monday at 00:00 UTC
     - cron: '0 0 * * 1'
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
 env:
   crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
-  downloadTranslationsBranch: l10n
+  GH_TOKEN: ${{ github.token }}
+  CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_PROJECT_ID || 780748 }}
+  L10N_UTIL_CONFIG: ${{ vars.L10N_UTIL_CONFIG || 'addon' }}
+  MIN_PERCENTAGE_TRANSLATED: ${{ vars.MIN_PERCENTAGE_TRANSLATED || 50 }}
+
 jobs:
   crowdinSync:
     runs-on: windows-latest
     permissions:
       contents: write
+
     steps:
+      - name: Random startup delay (0-5 minutes)
+        if: github.event_name == 'schedule'
+        shell: pwsh
+        run: |
+          $delaySeconds = Get-Random -Minimum 0 -Maximum 301
+          Write-Host "Sleeping for $delaySeconds seconds..."
+          Start-Sleep -Seconds $delaySeconds
       - name: Checkout add-on
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           submodules: true
-      - name: "Set up Python"
-        uses: actions/setup-python@v6
+      - name: Set up Python
+        uses: actions/setup-python@v7
         with:
           python-version-file: ".python-version"
-      - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v9.0.0
+      - name: Install dependencies
+        run: uv sync
+      - name: Install gettext
+        run: |
+          choco install -y gettext
+          # Add gettext to PATH for current and future steps
+          $gettextPath = "C:\Program Files\gettext-iconv\bin"
+          echo "$gettextPath" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
       - name: Get add-on info
         id: getAddonInfo
+        shell: pwsh
+        run: uv run ./.github/scripts/setOutputs.py
+      - name: Download l10nUtil
         run: |
-          uv sync
-          uv run ./.github/workflows/setOutputs.py
-      - name: Download l10nUtil from nvdal10n
-        run: |
-          New-Item -ItemType Directory -Force -Path _l10n | Out-Null
-          gh run download --repo nvaccess/nvdaL10n --dir _l10n_temp
-          Move-Item -Path _l10n_temp/l10nUtil.exe -Destination _l10n/l10nUtil.exe -Force
-          Remove-Item -Path _l10n_temp -Recurse -Force
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Upload md
-        run: |
-          Move-Item -Path readme.md -Destination "${{ steps.getAddonInfo.outputs.addonId }}.md"
-          uv run ./_l10n/l10nUtil.exe uploadSourceFile --localFilePath=${{ steps.getAddonInfo.outputs.addonId }}.md -c addon
-      - name: Upload pot
-        run: |
-          uv run ./_l10n/l10nUtil.exe uploadSourceFile --localFilePath=${{ steps.getAddonInfo.outputs.addonId }}.pot -c addon
+          gh release download --repo nvaccess/nvdaL10n --pattern "l10nUtil.exe"
       - name: Download translations from Crowdin
-        run: |
-          uv run _l10n/l10nUtil.exe exportTranslations -o _addonL10n -c addon
-          New-Item -ItemType Directory -Force -Path addon/locale | Out-Null
-          New-Item -ItemType Directory -Force -Path addon/doc | Out-Null
-          foreach ($dir in Get-ChildItem -Path "_addonL10n/${{ steps.getAddonInfo.outputs.addonId }}" -Directory) {
-            Write-Host "Processing: $($dir.FullName)"
-            $langCode = $dir.Name
-            $poFile = Join-Path $dir.FullName "${{ steps.getAddonInfo.outputs.addonId }}.po"
-            if (Test-Path -PathType Leaf $poFile) {
-              $targetDir = "addon/locale/$langCode/LC_MESSAGES"
-              New-Item -ItemType Directory -Force -Path $targetDir | Out-Null
-              Write-Host "Moving $poFile to $targetDir/nvda.po"
-              Move-Item -Path $poFile -Destination "$targetDir/nvda.po" -Force
-            }
-            $mdFile = Join-Path $dir.FullName "${{ steps.getAddonInfo.outputs.addonId }}.md"
-            if (Test-Path -PathType Leaf $mdFile) {
-              $targetDir = "addon/doc/$langCode"
-              New-Item -ItemType Directory -Force -Path $targetDir | Out-Null
-              Write-Host "Moving $mdFile to $targetDir/readme.md"
-              Move-Item -Path $mdFile -Destination "$targetDir/readme.md" -Force
-            }
-          }
-          git add addon/locale addon/doc
-          $diff = git diff --staged --quiet
-          if ($LASTEXITCODE -eq 0) {
-            Write-Host "Nothing added to commit."
-          } else {
-            git commit -m "Update translations for ${{ steps.getAddonInfo.outputs.addonId }}"
-            git checkout -b ${{ env.downloadTranslationsBranch }}
-            git push -f --set-upstream origin ${{ env.downloadTranslationsBranch }}
-          }
+        if: ${{ env.crowdinAuthToken }}
+        shell: pwsh
+        env:
+          ADDON_ID: ${{ steps.getAddonInfo.outputs.addonId }}
+        run: ./.github/scripts/crowdinSync.ps1
