@@ -1,71 +1,82 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the reportSymbols package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: reportSymbols 2.0\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2017-02-03 18:01+1000\n"
-"PO-Revision-Date: 2022-11-05 11:51+0100\n"
-"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
-"Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
-"Language: da\n"
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-08-16 05:37+0000\n"
+"PO-Revision-Date: 2026-08-16 05:39\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: reportSymbols.pot\n"
+"X-Crowdin-File-ID: 236\n"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\reportSymbols.py:44
 msgid "Report &printable symbols"
 msgstr "Oplæs symboler, der kan &udskrives"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\reportSymbols.py:48
 msgid "Report &spaces"
 msgstr "Oplæs &mellemrum"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\reportSymbols.py:52
 msgid "&Report carriage returns"
 msgstr "Oplæs &ny linje"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\reportSymbols.py:56
 msgid "Repor&t other blank characters"
 msgstr "Oplæs andre &blanke tegn"
 
+#. Translators: Reported when a symbol has been added to excludedSymbols.
+#: addon\globalPlugins\reportSymbols.py:143
+#, python-brace-format
+msgid "{symbol} excluded from symbols to report"
+msgstr ""
+
+#. Translators: Reported when a symbol has been removed to excludedSymbols.
+#: addon\globalPlugins\reportSymbols.py:147
+#, python-brace-format
+msgid "{symbol} included in symbols to report"
+msgstr ""
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\reportSymbols.py:156
+#, python-format
+msgid "Excludes or includes the %s symbol in the set of signs to be reported when typing"
+msgstr ""
+
 #. Translators: message presented in input mode.
+#: addon\globalPlugins\reportSymbols.py:164
 #, python-format
 msgid "Shows the %s settings."
 msgstr "Viser indstillinger for %s"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:20
 msgid "Report Symbols"
 msgstr "Oplæs symboler"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Allows to listen the typed symbols (non alphanumeric or blank characters), "
-"even when the speaking of characters is turned off."
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:23
+msgid "Allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of characters is turned off."
+msgstr "Giver dig mulighed for at høre de ikke-alfa-numeriske tegn, du skriver, selv hvis oplæsning af tegn er slået fra."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:28
+msgid "Updates to translations."
 msgstr ""
-"Giver dig mulighed for at høre de ikke-alfa-numeriske tegn, du skriver, selv "
-"hvis oplæsning af tegn er slået fra."
 
-#~ msgid ""
-#~ "You have installed the ReportSymbols add-on, probably an old and "
-#~ "incompatible version with this one. Do you want to uninstall the old "
-#~ "version?"
-#~ msgstr ""
-#~ "Du har installeret tilføjelsesprogrammet \"Oplæs symboler\", men "
-#~ "sandsynligvis i en gammel version, som er inkompatibel med denne udgave. "
-#~ "Ønsker du at afinstallere den gamle version?"
-
-#~ msgid "Uninstall incompatible add-on"
-#~ msgstr "Afinstaller inkompatibelt tilføjelsesprogram"
-
-#~ msgid "Report Symbols settings"
-#~ msgstr "Indstillinger for Oplæs symboler"
-
-#~ msgid "Report &Symbols settings..."
-#~ msgstr "Indstillinger for Oplæs &symboler..."
