@@ -46,4 +46,3 @@ submenú Preferencias, diálogo Gestos de entrada, categoría Configuración.
 *	Versión inicial.
 
 [[!tag dev stable]]
-
