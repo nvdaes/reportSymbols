@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/reportSymbols/16b0a4cb588c75897c93708ef44b29656a224311/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/reportSymbols/715b0066a4c40d2dec9a3a59cd52d8ba25db4259/readme.md">
 <skeleton>
 # $(ID:15eb9aec-fbbb-4d12-9ae3-cc4d230bf53e)
 *	$(ID:0d299957-89b0-4945-af7c-ca5a56e514e4)
@@ -47,7 +47,6 @@ $(ID:6b27af96-60cc-4cb4-9776-0464ac26e9ee)
 
 ## $(ID:56c85def-c1e5-455d-8d56-256ed1fd4e38)
 *	$(ID:ad9026e8-ee13-4756-b864-ff39751e97ba)
-
 </skeleton>
 <unit id="15eb9aec-fbbb-4d12-9ae3-cc4d230bf53e">
 <notes>
