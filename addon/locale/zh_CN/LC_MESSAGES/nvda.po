@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-16 05:37+0000\n"
-"PO-Revision-Date: 2026-08-16 05:39\n"
+"POT-Creation-Date: 2026-08-17 00:03+0000\n"
+"PO-Revision-Date: 2026-08-17 00:04\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -78,5 +78,5 @@ msgstr "即使 NVDA 的“读出输入字符”功能已关闭也可以读出键
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
 msgid "Updates to translations."
-msgstr ""
+msgstr "翻译更新。"
 
