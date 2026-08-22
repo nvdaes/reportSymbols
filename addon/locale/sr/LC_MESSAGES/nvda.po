@@ -1,82 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the reportSymbols package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-17 00:03+0000\n"
-"PO-Revision-Date: 2026-08-17 00:05\n"
-"Last-Translator: \n"
-"Language-Team: Serbian (Latin)\n"
-"Language: sr_CS\n"
+"Project-Id-Version: reportSymbols 2.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2017-03-10 18:01+1000\n"
+"PO-Revision-Date: 2022-06-19 04:07+0100\n"
+"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
+"Language-Team: Serbian <LL@li.org>\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: sr-CS\n"
-"X-Crowdin-File: reportSymbols.pot\n"
-"X-Crowdin-File-ID: 236\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\reportSymbols.py:44
 msgid "Report &printable symbols"
 msgstr "Prijavi &simbole koji se mogu pisati"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\reportSymbols.py:48
 msgid "Report &spaces"
 msgstr "Prijavi &razmake"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\reportSymbols.py:52
 msgid "&Report carriage returns"
 msgstr "P&rijavi nove redove"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\reportSymbols.py:56
 msgid "Repor&t other blank characters"
 msgstr "&Prijavi druge prazne znakove"
 
-#. Translators: Reported when a symbol has been added to excludedSymbols.
-#: addon\globalPlugins\reportSymbols.py:143
-#, python-brace-format
-msgid "{symbol} excluded from symbols to report"
-msgstr ""
-
-#. Translators: Reported when a symbol has been removed to excludedSymbols.
-#: addon\globalPlugins\reportSymbols.py:147
-#, python-brace-format
-msgid "{symbol} included in symbols to report"
-msgstr ""
-
-#. Translators: Message presented in input help mode.
-#: addon\globalPlugins\reportSymbols.py:156
-#, python-format
-msgid "Excludes or includes the %s symbol in the set of signs to be reported when typing"
-msgstr ""
-
 #. Translators: message presented in input mode.
-#: addon\globalPlugins\reportSymbols.py:164
 #, python-format
 msgid "Shows the %s settings."
 msgstr "Prikazuje podešavanja za %s."
 
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:20
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Report Symbols"
 msgstr "Prijavljivanje simbola"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of characters is turned off."
-msgstr "Dozvoljava slušanje ukucanih simbola(znakovi koji nisu alfanumerički), čak i kada je izgovor ukucanih znakova isključen."
-
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "Updates to translations."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows to listen the typed symbols (non alphanumeric or blank characters), "
+"even when the speaking of characters is turned off."
 msgstr ""
+"Dozvoljava slušanje ukucanih simbola(znakovi koji nisu alfanumerički), čak i "
+"kada je izgovor ukucanih znakova isključen."
 
+#~ msgid ""
+#~ "You have installed the ReportSymbols add-on, probably an old and "
+#~ "incompatible version with this one. Do you want to uninstall the old "
+#~ "version?"
+#~ msgstr ""
+#~ "Instalirali ste report simbols dodatak, verovatno staru i nekompatibilnu "
+#~ "verziju zajedno sa ovim dodatkom. Da li želite da uklonite staru verziju?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Ukloni nekompatibilan dodatak"
+
+#~ msgid "Report Symbols settings"
+#~ msgstr "Report simbols podešavanja"
+
+#~ msgid "Report &Symbols settings..."
+#~ msgstr "&Report simbols podešavanja"
