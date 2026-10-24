@@ -15,7 +15,7 @@ távolítsa el a régit!
 
 ## Beállítások menü ##
 *	A "szimbólumok bemondása" bővítmény beállításai: lehetővé teszi a
-  "szimbólumok bemondása" bővítmény beállításainak elvégzését.
+  "szimbólumok bemondása" bővítmény beállításainak elvégzését. 
 
 Megjegyzés: ha ezt a párbeszédpanelt billentyűparanccsal szeretné megnyitni,
 hozzáadhat billentyűparancsot az NVDA/beállítások/beviteli parancsok
