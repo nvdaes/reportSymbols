@@ -40,4 +40,3 @@
 *	첫 번째 버전
 
 [[!tag dev stable]]
-
