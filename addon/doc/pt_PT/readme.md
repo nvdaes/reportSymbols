@@ -46,4 +46,3 @@ NVDA, Preferências, Definir comandos, na categoria Configuração.
 *	Versão inicial.
 
 [[!tag dev stable]]
-
